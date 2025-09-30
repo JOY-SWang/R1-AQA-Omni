@@ -1,0 +1,7 @@
+{"time":"2025-09-29T11:53:44.304522289+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/shared-storage-user/wangjieyi/huoshan/wangjieyi/codes/r1-aqa-main-v1/wandb/offline-run-20250929_115343-7rx5q94n/logs/debug-core.log"}
+{"time":"2025-09-29T11:53:44.597970099+08:00","level":"INFO","msg":"created new stream","id":"7rx5q94n"}
+{"time":"2025-09-29T11:53:44.598309793+08:00","level":"INFO","msg":"stream: started","id":"7rx5q94n"}
+{"time":"2025-09-29T11:53:44.598323737+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"7rx5q94n"}
+{"time":"2025-09-29T11:53:44.598356425+08:00","level":"INFO","msg":"handler: started","stream_id":"7rx5q94n"}
+{"time":"2025-09-29T11:53:44.598376007+08:00","level":"INFO","msg":"sender: started","stream_id":"7rx5q94n"}
+{"time":"2025-09-29T11:53:44.695708099+08:00","level":"INFO","msg":"Starting system monitor"}

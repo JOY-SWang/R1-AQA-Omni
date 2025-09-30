@@ -1,0 +1,32 @@
+  0%|                                                                                                                                       | 0/1000 [00:00<?, ?it/s]Traceback (most recent call last):
+audio===================**
+([array([-0.00595093, -0.0161438 , -0.02017212, ..., -0.17193604,
+        0.10983276, -0.04824829], dtype=float32)], None, None)
+audio x[audio]===================**
+  File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 79, in <module>
+    main()
+  File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 74, in main
+    trainer.train()
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2240, in train
+    return inner_training_loop(
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2555, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 3745, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/trainer/grpo_trainer.py", line 385, in compute_loss
+    print(x["audio"])
+NameError: name 'x' is not defined
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 79, in <module>
+[rank0]:     main()
+[rank0]:   File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 74, in main
+[rank0]:     trainer.train()
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2240, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2555, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 3745, in training_step
+[rank0]:     loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+[rank0]:   File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/trainer/grpo_trainer.py", line 385, in compute_loss
+[rank0]:     print(x["audio"])
+[rank0]: NameError: name 'x' is not defined

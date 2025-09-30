@@ -1,0 +1,15 @@
+{"time":"2025-06-12T06:09:09.382067714Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/wandb/run-20250612_060909-ogj36on3/logs/debug-core.log"}
+{"time":"2025-06-12T06:09:09.493326024Z","level":"INFO","msg":"created new stream","id":"ogj36on3"}
+{"time":"2025-06-12T06:09:09.493396903Z","level":"INFO","msg":"stream: started","id":"ogj36on3"}
+{"time":"2025-06-12T06:09:09.493409888Z","level":"INFO","msg":"writer: Do: started","stream_id":"ogj36on3"}
+{"time":"2025-06-12T06:09:09.493424495Z","level":"INFO","msg":"handler: started","stream_id":"ogj36on3"}
+{"time":"2025-06-12T06:09:09.493425872Z","level":"INFO","msg":"sender: started","stream_id":"ogj36on3"}
+{"time":"2025-06-12T06:09:10.008698472Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-12T06:09:11.563590634Z","level":"INFO","msg":"stream: closing","id":"ogj36on3"}
+{"time":"2025-06-12T06:09:11.563649703Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-12T06:09:11.564138781Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-12T06:09:12.905787052Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-12T06:09:13.444781651Z","level":"INFO","msg":"handler: closed","stream_id":"ogj36on3"}
+{"time":"2025-06-12T06:09:13.444841496Z","level":"INFO","msg":"writer: Close: closed","stream_id":"ogj36on3"}
+{"time":"2025-06-12T06:09:13.44485165Z","level":"INFO","msg":"sender: closed","stream_id":"ogj36on3"}
+{"time":"2025-06-12T06:09:13.445111072Z","level":"INFO","msg":"stream: closed","id":"ogj36on3"}

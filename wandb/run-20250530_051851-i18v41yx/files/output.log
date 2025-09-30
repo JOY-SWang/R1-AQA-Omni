@@ -1,0 +1,42 @@
+  0%|          | 0/1000 [00:00<?, ?it/s]2025-05-30 05:18:52,446 WARNING System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+Keyword argument `audios` is not a valid argument for this processor and will be ignored.
+Traceback (most recent call last):
+  File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 78, in <module>
+    main()
+  File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 73, in main
+    trainer.train()
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2240, in train
+    return inner_training_loop(
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2555, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 3745, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/trainer/grpo_trainer.py", line 352, in compute_loss
+    prompt_inputs = self.processing_class(
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py", line 199, in __call__
+    text = self.replace_multimodal_special_tokens(
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py", line 237, in replace_multimodal_special_tokens
+    positions = sorted([(match.start(), match.group()) for match in re.finditer(pattern, sample)])
+  File "/root/miniconda3/lib/python3.10/re.py", line 247, in finditer
+    return _compile(pattern, flags).finditer(string)
+TypeError: expected string or bytes-like object
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 78, in <module>
+[rank0]:     main()
+[rank0]:   File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 73, in main
+[rank0]:     trainer.train()
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2240, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2555, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 3745, in training_step
+[rank0]:     loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+[rank0]:   File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/trainer/grpo_trainer.py", line 352, in compute_loss
+[rank0]:     prompt_inputs = self.processing_class(
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py", line 199, in __call__
+[rank0]:     text = self.replace_multimodal_special_tokens(
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py", line 237, in replace_multimodal_special_tokens
+[rank0]:     positions = sorted([(match.start(), match.group()) for match in re.finditer(pattern, sample)])
+[rank0]:   File "/root/miniconda3/lib/python3.10/re.py", line 247, in finditer
+[rank0]:     return _compile(pattern, flags).finditer(string)
+[rank0]: TypeError: expected string or bytes-like object

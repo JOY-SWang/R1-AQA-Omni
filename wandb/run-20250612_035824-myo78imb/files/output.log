@@ -1,0 +1,38 @@
+  0%|                                                                                                                                       | 0/1000 [00:00<?, ?it/s]Traceback (most recent call last):
+text===================**
+["<|im_start|>system\nYou are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.<|im_end|>\n<|im_start|>user\n<|audio_bos|><|AUDIO|><|audio_eos|>What animal appears in the audio? Please choose the answer from the following options: ['planing', 'mosquito', 'honeybee', 'Ants']. Output the final answer in <answer> </answer>.<|im_end|>\n<|im_start|>assistant\n"]
+  File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 79, in <module>
+    main()
+  File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 74, in main
+    trainer.train()
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2240, in train
+    return inner_training_loop(
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2555, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 3745, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/trainer/grpo_trainer.py", line 388, in compute_loss
+    prompt_inputs = self.processing_class(
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py", line 162, in __call__
+    audio_inputs = self.feature_extractor(audio, **output_kwargs["audio_kwargs"])
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/models/whisper/feature_extraction_whisper.py", line 281, in __call__
+    raw_speech = np.asarray(raw_speech, dtype=np.float32)
+ValueError: could not convert string to float: '/fs-computility/niuyazhe/shared/audio/datasets/VGGSound16khz/W84RopEh7cA_40.wav'
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 79, in <module>
+[rank0]:     main()
+[rank0]:   File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 74, in main
+[rank0]:     trainer.train()
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2240, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2555, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 3745, in training_step
+[rank0]:     loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+[rank0]:   File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/trainer/grpo_trainer.py", line 388, in compute_loss
+[rank0]:     prompt_inputs = self.processing_class(
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py", line 162, in __call__
+[rank0]:     audio_inputs = self.feature_extractor(audio, **output_kwargs["audio_kwargs"])
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/models/whisper/feature_extraction_whisper.py", line 281, in __call__
+[rank0]:     raw_speech = np.asarray(raw_speech, dtype=np.float32)
+[rank0]: ValueError: could not convert string to float: '/fs-computility/niuyazhe/shared/audio/datasets/VGGSound16khz/W84RopEh7cA_40.wav'

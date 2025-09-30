@@ -1,0 +1,77 @@
+  0%|                                                                                                                                        | 0/500 [00:00<?, ?it/s]/root/miniconda3/lib/python3.10/site-packages/torch/utils/checkpoint.py:87: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+Invalidate trace cache @ step 0 and module 2372: cache has only 0 modules
+Invalidate trace cache @ step 0 and module 3558: cache has only 0 modules
+  0%|▌                                                                                                                             | 2/500 [01:51<7:35:24, 54.87s/it]Traceback (most recent call last):
+{'loss': 0.0, 'grad_norm': 7.084229469299316, 'learning_rate': 1e-06, 'completion_length': 33.265625, 'rewards/accuracy_reward': 0.484375, 'rewards/format_reward': 0.0, 'reward': 0.484375, 'reward_std': 0.31733438372612, 'kl': 0.0, 'epoch': 0.0}
+Invalidate trace cache @ step 0 and module 4744: cache has only 0 modules
+Invalidate trace cache @ step 0 and module 5930: cache has only 0 modules
+{'loss': 0.0004, 'grad_norm': 9.239697456359863, 'learning_rate': 9.98e-07, 'completion_length': 25.53125, 'rewards/accuracy_reward': 0.53125, 'rewards/format_reward': 0.0, 'reward': 0.53125, 'reward_std': 0.3582531809806824, 'kl': 0.009857177734375, 'epoch': 0.0}
+Invalidate trace cache @ step 0 and module 7116: cache has only 0 modules
+Invalidate trace cache @ step 0 and module 8302: cache has only 0 modules
+  File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 78, in <module>
+    main()
+  File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 73, in main
+    trainer.train()
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2240, in train
+    return inner_training_loop(
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2555, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 3745, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/trainer/grpo_trainer.py", line 448, in compute_loss
+    ref_per_token_logps = self._get_per_token_logps(
+  File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/trainer/grpo_trainer.py", line 337, in _get_per_token_logps
+    logits = model(input_ids, attention_mask=attention_mask, input_features=features_values, feature_attention_mask=features_masks).logits  # (B, L, V)
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 1918, in forward
+    for module in self.module.modules():
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2772, in modules
+    for _, module in self.named_modules():
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2820, in named_modules
+    yield from module.named_modules(
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2820, in named_modules
+    yield from module.named_modules(
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2820, in named_modules
+    yield from module.named_modules(
+  [Previous line repeated 2 more times]
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 78, in <module>
+[rank0]:     main()
+[rank0]:   File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 73, in main
+[rank0]:     trainer.train()
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2240, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2555, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 3745, in training_step
+[rank0]:     loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+[rank0]:   File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/trainer/grpo_trainer.py", line 448, in compute_loss
+[rank0]:     ref_per_token_logps = self._get_per_token_logps(
+[rank0]:   File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/trainer/grpo_trainer.py", line 337, in _get_per_token_logps
+[rank0]:     logits = model(input_ids, attention_mask=attention_mask, input_features=features_values, feature_attention_mask=features_masks).logits  # (B, L, V)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+[rank0]:     ret_val = func(*args, **kwargs)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 1918, in forward
+[rank0]:     for module in self.module.modules():
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2772, in modules
+[rank0]:     for _, module in self.named_modules():
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2820, in named_modules
+[rank0]:     yield from module.named_modules(
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2820, in named_modules
+[rank0]:     yield from module.named_modules(
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2820, in named_modules
+[rank0]:     yield from module.named_modules(
+[rank0]:   [Previous line repeated 2 more times]
+[rank0]: KeyboardInterrupt

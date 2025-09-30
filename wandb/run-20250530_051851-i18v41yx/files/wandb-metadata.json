@@ -1,0 +1,24 @@
+{
+  "os": "Linux-5.4.250-2-velinux1u1-amd64-x86_64-with-glibc2.31",
+  "python": "CPython 3.10.15",
+  "startedAt": "2025-05-30T05:18:51.122553Z",
+  "args": [
+    "--config_path",
+    "conf/ds_zero3.json",
+    "--model_name_or_path",
+    "/fs-computility/niuyazhe/shared/wangjieyi/models/qwen/Qwen/Qwen2___5-Omni-7B",
+    "--out_dir",
+    "exp/model",
+    "--data_file",
+    "/fs-computility/niuyazhe/shared/audio/datasets/AVQA/AVQA/AVQA_dataset/train_r1aqa_line2.json",
+    "--use_wandb",
+    "true"
+  ],
+  "program": "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py",
+  "codePath": "src/train.py",
+  "email": "joywang909@gmail.com",
+  "root": "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1",
+  "host": "t-20250529172716-bsf5m-worker-0",
+  "executable": "/root/miniconda3/bin/python",
+  "codePathLocal": "src/train.py"
+}

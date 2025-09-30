@@ -1,0 +1,10 @@
+{"time":"2025-06-12T03:34:35.515071428Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/wandb/run-20250612_033433-wpy3vfbr/logs/debug-core.log"}
+{"time":"2025-06-12T03:34:35.625711674Z","level":"INFO","msg":"created new stream","id":"wpy3vfbr"}
+{"time":"2025-06-12T03:34:35.625783245Z","level":"INFO","msg":"stream: started","id":"wpy3vfbr"}
+{"time":"2025-06-12T03:34:35.625793791Z","level":"INFO","msg":"writer: Do: started","stream_id":"wpy3vfbr"}
+{"time":"2025-06-12T03:34:35.625808085Z","level":"INFO","msg":"sender: started","stream_id":"wpy3vfbr"}
+{"time":"2025-06-12T03:34:35.625811275Z","level":"INFO","msg":"handler: started","stream_id":"wpy3vfbr"}
+{"time":"2025-06-12T03:34:36.59222684Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-12T03:34:54.168024587Z","level":"INFO","msg":"stream: closing","id":"wpy3vfbr"}
+{"time":"2025-06-12T03:34:54.168084718Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-12T03:34:54.168535836Z","level":"INFO","msg":"Stopped system monitor"}

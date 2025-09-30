@@ -1,0 +1,67 @@
+{
+  "os": "Linux-5.15.0-89-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.12",
+  "startedAt": "2025-09-29T03:53:44.250981Z",
+  "args": [
+    "--config_path",
+    "conf/ds_zero3.json",
+    "--model_name_or_path",
+    "/mnt/shared-storage-user/wangjieyi/huoshan/wangjieyi/ICLR/codes/tryOmni/output/Qwen2___5-Omni-7B-SFT",
+    "--out_dir",
+    "exp/model_Omni_ReflectGRPO",
+    "--data_file",
+    "/mnt/shared-storage-user/wangjieyi/huoshan/wangjieyi/ICLR/datasets/AVQA/AVQA/AVQA_dataset/train_r1aqa_line.json",
+    "--use_wandb",
+    "true"
+  ],
+  "program": "/mnt/shared-storage-user/wangjieyi/huoshan/wangjieyi/codes/r1-aqa-main-v1/src/train.py",
+  "codePath": "src/train.py",
+  "root": "/mnt/shared-storage-user/wangjieyi/huoshan/wangjieyi/codes/r1-aqa-main-v1",
+  "host": "wjy-1gpu-47z28-4540-worker-0",
+  "executable": "/usr/bin/python3",
+  "codePathLocal": "src/train.py",
+  "cpu_count": 96,
+  "cpu_count_logical": 192,
+  "gpu": "NVIDIA H200",
+  "gpu_count": 4,
+  "disk": {
+    "/": {
+      "total": "958548140032",
+      "used": "777711071232"
+    }
+  },
+  "memory": {
+    "total": "419430400000"
+  },
+  "cpu": {
+    "count": 96,
+    "countLogical": 192
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA H200",
+      "memoryTotal": "150754820096",
+      "cudaCores": 16896,
+      "architecture": "Hopper"
+    },
+    {
+      "name": "NVIDIA H200",
+      "memoryTotal": "150754820096",
+      "cudaCores": 16896,
+      "architecture": "Hopper"
+    },
+    {
+      "name": "NVIDIA H200",
+      "memoryTotal": "150754820096",
+      "cudaCores": 16896,
+      "architecture": "Hopper"
+    },
+    {
+      "name": "NVIDIA H200",
+      "memoryTotal": "150754820096",
+      "cudaCores": 16896,
+      "architecture": "Hopper"
+    }
+  ],
+  "cudaVersion": "12.8"
+}

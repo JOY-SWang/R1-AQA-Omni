@@ -1,0 +1,150 @@
+2025-06-06 12:35:35,857 INFO    MainThread:12527 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-06-06 12:35:35,857 INFO    MainThread:12527 [wandb_setup.py:_flush():67] Configure stats pid to 12527
+2025-06-06 12:35:35,857 INFO    MainThread:12527 [wandb_setup.py:_flush():67] Loading settings from /root/.config/wandb/settings
+2025-06-06 12:35:35,857 INFO    MainThread:12527 [wandb_setup.py:_flush():67] Loading settings from /fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/wandb/settings
+2025-06-06 12:35:35,857 INFO    MainThread:12527 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-06-06 12:35:35,857 INFO    MainThread:12527 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/wandb/run-20250606_123535-e0iq1igu/logs/debug.log
+2025-06-06 12:35:35,857 INFO    MainThread:12527 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/wandb/run-20250606_123535-e0iq1igu/logs/debug-internal.log
+2025-06-06 12:35:35,857 INFO    MainThread:12527 [wandb_init.py:init():761] calling init triggers
+2025-06-06 12:35:35,857 INFO    MainThread:12527 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-06-06 12:35:35,857 INFO    MainThread:12527 [wandb_init.py:init():784] starting backend
+2025-06-06 12:35:35,857 INFO    MainThread:12527 [wandb_init.py:init():788] sending inform_init request
+2025-06-06 12:35:35,859 INFO    MainThread:12527 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-06-06 12:35:35,859 INFO    MainThread:12527 [wandb_init.py:init():798] backend started and connected
+2025-06-06 12:35:35,860 INFO    MainThread:12527 [wandb_init.py:init():891] updated telemetry
+2025-06-06 12:35:35,861 INFO    MainThread:12527 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-06-06 12:36:07,048 INFO    Thread-3 (wrapped_target):12527 [retry.py:__call__():175] Retry attempt failed:
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "/root/miniconda3/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/root/miniconda3/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/root/miniconda3/lib/python3.10/site-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "/root/miniconda3/lib/python3.10/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/lib/python3.10/site-packages/urllib3/connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "/root/miniconda3/lib/python3.10/site-packages/urllib3/connection.py", line 208, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7ff0c1aa6fe0>, 'Connection to api.wandb.ai timed out. (connect timeout=20)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/root/miniconda3/lib/python3.10/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/root/miniconda3/lib/python3.10/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff0c1aa6fe0>, 'Connection to api.wandb.ai timed out. (connect timeout=20)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 134, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 398, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "/root/miniconda3/lib/python3.10/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/requests/adapters.py", line 688, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff0c1aa6fe0>, 'Connection to api.wandb.ai timed out. (connect timeout=20)'))
+2025-06-06 12:37:05,863 ERROR   MainThread:12527 [wandb_init.py:init():1478] error in wandb.init()
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/asyncio/locks.py", line 214, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/asyncio/tasks.py", line 456, in wait_for
+    return fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/sdk/mailbox/response_handle.py", line 109, in wait_async
+    await asyncio.wait_for(evt.wait(), timeout=timeout)
+  File "/root/miniconda3/lib/python3.10/asyncio/tasks.py", line 458, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 941, in init
+    result = wait_with_progress(
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 24, in wait_with_progress
+    return wait_all_with_progress(
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 87, in wait_all_with_progress
+    return asyncio_compat.run(progress_loop_with_timeout)
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/sdk/lib/asyncio_compat.py", line 30, in run
+    return future.result()
+  File "/root/miniconda3/lib/python3.10/concurrent/futures/_base.py", line 458, in result
+    return self.__get_result()
+  File "/root/miniconda3/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/root/miniconda3/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/sdk/lib/asyncio_compat.py", line 74, in run
+    return asyncio.run(self._run_or_cancel(fn))
+  File "/root/miniconda3/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/root/miniconda3/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/sdk/lib/asyncio_compat.py", line 98, in _run_or_cancel
+    return fn_task.result()
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 82, in progress_loop_with_timeout
+    return await _wait_handles_async(
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 130, in _wait_handles_async
+    async with asyncio_compat.open_task_group() as task_group:
+  File "/root/miniconda3/lib/python3.10/contextlib.py", line 206, in __aexit__
+    await anext(self.gen)
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/sdk/lib/asyncio_compat.py", line 190, in open_task_group
+    await task_group._wait_all()
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/sdk/lib/asyncio_compat.py", line 159, in _wait_all
+    raise exc
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 128, in wait_single
+    results[index] = await handle.wait_async(timeout=timeout)
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/sdk/mailbox/mailbox_handle.py", line 126, in wait_async
+    response = await self._handle.wait_async(timeout=timeout)
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/sdk/mailbox/response_handle.py", line 118, in wait_async
+    raise TimeoutError(
+TimeoutError: Timed out waiting for response on 5gpiafatynm9
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1468, in init
+    return wi.init(run_settings, run_config)
+  File "/root/miniconda3/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 954, in init
+    raise CommError(
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. Please try increasing the timeout with the `init_timeout` setting: `wandb.init(settings=wandb.Settings(init_timeout=120))`.
+2025-06-06 12:37:06,619 INFO    MsgRouterThr:12527 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.

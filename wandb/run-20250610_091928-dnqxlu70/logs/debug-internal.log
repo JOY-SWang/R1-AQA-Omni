@@ -1,0 +1,7 @@
+{"time":"2025-06-10T09:19:29.106422411Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/wandb/run-20250610_091928-dnqxlu70/logs/debug-core.log"}
+{"time":"2025-06-10T09:19:29.22312621Z","level":"INFO","msg":"created new stream","id":"dnqxlu70"}
+{"time":"2025-06-10T09:19:29.223171763Z","level":"INFO","msg":"stream: started","id":"dnqxlu70"}
+{"time":"2025-06-10T09:19:29.223186165Z","level":"INFO","msg":"writer: Do: started","stream_id":"dnqxlu70"}
+{"time":"2025-06-10T09:19:29.223195747Z","level":"INFO","msg":"sender: started","stream_id":"dnqxlu70"}
+{"time":"2025-06-10T09:19:29.223202623Z","level":"INFO","msg":"handler: started","stream_id":"dnqxlu70"}
+{"time":"2025-06-10T09:19:29.808483102Z","level":"INFO","msg":"Starting system monitor"}

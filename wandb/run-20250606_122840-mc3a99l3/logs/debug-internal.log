@@ -1,0 +1,15 @@
+{"time":"2025-06-06T12:28:40.924562685Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/wandb/run-20250606_122840-mc3a99l3/logs/debug-core.log"}
+{"time":"2025-06-06T12:28:41.125566859Z","level":"INFO","msg":"created new stream","id":"mc3a99l3"}
+{"time":"2025-06-06T12:28:41.125614317Z","level":"INFO","msg":"stream: started","id":"mc3a99l3"}
+{"time":"2025-06-06T12:28:41.125629315Z","level":"INFO","msg":"writer: Do: started","stream_id":"mc3a99l3"}
+{"time":"2025-06-06T12:28:41.125644533Z","level":"INFO","msg":"sender: started","stream_id":"mc3a99l3"}
+{"time":"2025-06-06T12:28:41.125647988Z","level":"INFO","msg":"handler: started","stream_id":"mc3a99l3"}
+{"time":"2025-06-06T12:29:11.127525244Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-06-06T12:29:43.169011411Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-06-06T12:30:11.680659965Z","level":"INFO","msg":"stream: closing","id":"mc3a99l3"}
+{"time":"2025-06-06T12:30:11.680701881Z","level":"INFO","msg":"handler: closed","stream_id":"mc3a99l3"}
+{"time":"2025-06-06T12:30:11.68070761Z","level":"INFO","msg":"writer: Close: closed","stream_id":"mc3a99l3"}
+{"time":"2025-06-06T12:30:11.680742623Z","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: api: failed sending: POST https://api.wandb.ai/graphql giving up after 3 attempt(s): context canceled"}
+{"time":"2025-06-06T12:30:11.680773215Z","level":"INFO","msg":"sender: closed","stream_id":"mc3a99l3"}
+{"time":"2025-06-06T12:30:11.68079109Z","level":"WARN","msg":"runwork: ignoring record after close","work":{}}
+{"time":"2025-06-06T12:30:11.680945035Z","level":"INFO","msg":"stream: closed","id":"mc3a99l3"}

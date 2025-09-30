@@ -1,0 +1,17 @@
+{"time":"2025-06-06T13:24:58.554333796Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/wandb/run-20250606_132458-rm3n46dd/logs/debug-core.log"}
+{"time":"2025-06-06T13:24:58.870004849Z","level":"INFO","msg":"created new stream","id":"rm3n46dd"}
+{"time":"2025-06-06T13:24:58.870056578Z","level":"INFO","msg":"stream: started","id":"rm3n46dd"}
+{"time":"2025-06-06T13:24:58.870076508Z","level":"INFO","msg":"handler: started","stream_id":"rm3n46dd"}
+{"time":"2025-06-06T13:24:58.870068902Z","level":"INFO","msg":"writer: Do: started","stream_id":"rm3n46dd"}
+{"time":"2025-06-06T13:24:58.870096652Z","level":"INFO","msg":"sender: started","stream_id":"rm3n46dd"}
+{"time":"2025-06-06T13:24:59.422817409Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-06T16:18:10.541054096Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/joywang909/huggingface/rm3n46dd/file_stream\": unexpected EOF"}
+{"time":"2025-06-06T18:08:15.903912974Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/joywang909/huggingface/rm3n46dd/file_stream\": unexpected EOF"}
+{"time":"2025-06-06T21:00:39.114571396Z","level":"INFO","msg":"stream: closing","id":"rm3n46dd"}
+{"time":"2025-06-06T21:00:39.114599036Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-06T21:00:46.939201538Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-06T21:00:49.994936036Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-06T21:00:50.510394847Z","level":"INFO","msg":"handler: closed","stream_id":"rm3n46dd"}
+{"time":"2025-06-06T21:00:50.510440379Z","level":"INFO","msg":"writer: Close: closed","stream_id":"rm3n46dd"}
+{"time":"2025-06-06T21:00:50.510458896Z","level":"INFO","msg":"sender: closed","stream_id":"rm3n46dd"}
+{"time":"2025-06-06T21:00:50.516257571Z","level":"INFO","msg":"stream: closed","id":"rm3n46dd"}

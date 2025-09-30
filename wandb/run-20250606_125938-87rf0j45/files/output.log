@@ -1,0 +1,142 @@
+  0%|          | 0/500 [00:00<?, ?it/s]/root/miniconda3/lib/python3.10/site-packages/torch/utils/checkpoint.py:87: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+Invalidate trace cache @ step 0 and module 2372: cache has only 0 modules
+Invalidate trace cache @ step 0 and module 3558: cache has only 0 modules
+  2%|▏         | 9/500 [08:08<7:15:51, 53.26s/it]Traceback (most recent call last):
+{'loss': 0.0, 'grad_norm': 10.516736030578613, 'learning_rate': 1e-06, 'completion_length': 32.2890625, 'rewards/accuracy_reward': 0.5, 'rewards/format_reward': 0.0, 'reward': 0.5, 'reward_std': 0.327729195356369, 'kl': 0.0, 'epoch': 0.0}
+Invalidate trace cache @ step 0 and module 4744: cache has only 0 modules
+Invalidate trace cache @ step 0 and module 5930: cache has only 0 modules
+{'loss': 0.0003, 'grad_norm': 9.086160659790039, 'learning_rate': 9.98e-07, 'completion_length': 27.0703125, 'rewards/accuracy_reward': 0.5390625, 'rewards/format_reward': 0.0, 'reward': 0.5390625, 'reward_std': 0.38795197010040283, 'kl': 0.0069732666015625, 'epoch': 0.0}
+Invalidate trace cache @ step 0 and module 7116: cache has only 0 modules
+Invalidate trace cache @ step 0 and module 8302: cache has only 0 modules
+{'loss': 0.0003, 'grad_norm': 5.93132209777832, 'learning_rate': 9.959999999999999e-07, 'completion_length': 25.6796875, 'rewards/accuracy_reward': 0.5859375, 'rewards/format_reward': 0.0, 'reward': 0.5859375, 'reward_std': 0.24435831606388092, 'kl': 0.0075531005859375, 'epoch': 0.0}
+Invalidate trace cache @ step 0 and module 9488: cache has only 0 modules
+Invalidate trace cache @ step 0 and module 10674: cache has only 0 modules
+{'loss': 0.0008, 'grad_norm': 15.600428581237793, 'learning_rate': 9.94e-07, 'completion_length': 27.3046875, 'rewards/accuracy_reward': 0.390625, 'rewards/format_reward': 0.0, 'reward': 0.390625, 'reward_std': 0.31694266200065613, 'kl': 0.019134521484375, 'epoch': 0.0}
+Invalidate trace cache @ step 0 and module 11860: cache has only 0 modules
+Invalidate trace cache @ step 0 and module 13046: cache has only 0 modules
+{'loss': 0.0006, 'grad_norm': 13.206385612487793, 'learning_rate': 9.92e-07, 'completion_length': 26.6640625, 'rewards/accuracy_reward': 0.6875, 'rewards/format_reward': 0.0, 'reward': 0.6875, 'reward_std': 0.3079911321401596, 'kl': 0.014434814453125, 'epoch': 0.0}
+Invalidate trace cache @ step 0 and module 14232: cache has only 0 modules
+Invalidate trace cache @ step 0 and module 15418: cache has only 0 modules
+{'loss': 0.0007, 'grad_norm': 9.593406677246094, 'learning_rate': 9.9e-07, 'completion_length': 27.5546875, 'rewards/accuracy_reward': 0.703125, 'rewards/format_reward': 0.0, 'reward': 0.703125, 'reward_std': 0.2109457403421402, 'kl': 0.017486572265625, 'epoch': 0.0}
+Invalidate trace cache @ step 0 and module 16604: cache has only 0 modules
+Invalidate trace cache @ step 0 and module 17790: cache has only 0 modules
+{'loss': 0.0005, 'grad_norm': 2.8300976753234863, 'learning_rate': 9.88e-07, 'completion_length': 27.9296875, 'rewards/accuracy_reward': 0.5859375, 'rewards/format_reward': 0.0, 'reward': 0.5859375, 'reward_std': 0.15308690071105957, 'kl': 0.013427734375, 'epoch': 0.0}
+Invalidate trace cache @ step 0 and module 18976: cache has only 0 modules
+Invalidate trace cache @ step 0 and module 20162: cache has only 0 modules
+{'loss': 0.0008, 'grad_norm': 3.668438196182251, 'learning_rate': 9.86e-07, 'completion_length': 21.75, 'rewards/accuracy_reward': 0.4375, 'rewards/format_reward': 0.0, 'reward': 0.4375, 'reward_std': 0.20517178624868393, 'kl': 0.020782470703125, 'epoch': 0.0}
+Invalidate trace cache @ step 0 and module 21348: cache has only 0 modules
+Invalidate trace cache @ step 0 and module 22534: cache has only 0 modules
+{'loss': 0.0011, 'grad_norm': 4.262746810913086, 'learning_rate': 9.84e-07, 'completion_length': 21.4140625, 'rewards/accuracy_reward': 0.7265625, 'rewards/format_reward': 0.0, 'reward': 0.7265625, 'reward_std': 0.2501322776079178, 'kl': 0.02789306640625, 'epoch': 0.0}
+  File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 78, in <module>
+    main()
+  File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 73, in main
+    trainer.train()
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2240, in train
+    return inner_training_loop(
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2555, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 3745, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/trainer/grpo_trainer.py", line 414, in compute_loss
+    prompt_completion_ids = unwrapped_model.generate(
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/generation/utils.py", line 2597, in generate
+    result = self._sample(
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/generation/utils.py", line 3560, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1845, in _call_impl
+    return inner()
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1793, in inner
+    result = forward_call(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py", line 2436, in forward
+    outputs = self.model(
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py", line 1953, in forward
+    layer_outputs = self._gradient_checkpointing_func(
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/_compile.py", line 32, in inner
+    return disable_fn(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 745, in _fn
+    return fn(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 489, in checkpoint
+    return CheckpointFunction.apply(function, preserve, *args)
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/autograd/function.py", line 575, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 232, in forward
+    ctx.device_type = _infer_device_type(*args)
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 139, in _infer_device_type
+    tree_map(add_device_types, args)
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/utils/_pytree.py", line 989, in tree_map
+    leaves, treespec = tree_flatten(tree, is_leaf=is_leaf)
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/utils/_pytree.py", line 901, in tree_flatten
+    spec = _tree_flatten_helper(tree, leaves, is_leaf=is_leaf)
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/utils/_pytree.py", line 886, in _tree_flatten_helper
+    children_specs = [
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/utils/_pytree.py", line 887, in <listcomp>
+    _tree_flatten_helper(child, leaves, is_leaf=is_leaf) for child in child_pytrees
+  File "/root/miniconda3/lib/python3.10/site-packages/torch/utils/_pytree.py", line 872, in _tree_flatten_helper
+    def _tree_flatten_helper(
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 78, in <module>
+[rank0]:     main()
+[rank0]:   File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 73, in main
+[rank0]:     trainer.train()
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2240, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2555, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 3745, in training_step
+[rank0]:     loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+[rank0]:   File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/trainer/grpo_trainer.py", line 414, in compute_loss
+[rank0]:     prompt_completion_ids = unwrapped_model.generate(
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+[rank0]:     return func(*args, **kwargs)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/generation/utils.py", line 2597, in generate
+[rank0]:     result = self._sample(
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/generation/utils.py", line 3560, in _sample
+[rank0]:     outputs = model_forward(**model_inputs, return_dict=True)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1845, in _call_impl
+[rank0]:     return inner()
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1793, in inner
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py", line 2436, in forward
+[rank0]:     outputs = self.model(
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py", line 1953, in forward
+[rank0]:     layer_outputs = self._gradient_checkpointing_func(
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/_compile.py", line 32, in inner
+[rank0]:     return disable_fn(*args, **kwargs)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 745, in _fn
+[rank0]:     return fn(*args, **kwargs)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 489, in checkpoint
+[rank0]:     return CheckpointFunction.apply(function, preserve, *args)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/autograd/function.py", line 575, in apply
+[rank0]:     return super().apply(*args, **kwargs)  # type: ignore[misc]
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 232, in forward
+[rank0]:     ctx.device_type = _infer_device_type(*args)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 139, in _infer_device_type
+[rank0]:     tree_map(add_device_types, args)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/utils/_pytree.py", line 989, in tree_map
+[rank0]:     leaves, treespec = tree_flatten(tree, is_leaf=is_leaf)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/utils/_pytree.py", line 901, in tree_flatten
+[rank0]:     spec = _tree_flatten_helper(tree, leaves, is_leaf=is_leaf)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/utils/_pytree.py", line 886, in _tree_flatten_helper
+[rank0]:     children_specs = [
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/utils/_pytree.py", line 887, in <listcomp>
+[rank0]:     _tree_flatten_helper(child, leaves, is_leaf=is_leaf) for child in child_pytrees
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/torch/utils/_pytree.py", line 872, in _tree_flatten_helper
+[rank0]:     def _tree_flatten_helper(
+[rank0]: KeyboardInterrupt

@@ -1,0 +1,2483 @@
+  0%|          | 0/500 [00:00<?, ?it/s]/root/miniconda3/lib/python3.10/site-packages/torch/utils/checkpoint.py:87: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+Invalidate trace cache @ step 0 and module 2372: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 3558: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.0000]], device='cuda:0')
+  1%|          | 4/500 [03:27<7:00:00, 50.81s/it]
+{'loss': 0.0, 'grad_norm': 4.855396747589111, 'learning_rate': 1e-06, 'completion_length': 29.5625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.22500000894069672, 'reward': 0.22500000894069672, 'reward_std': 0.07954951375722885, 'kl': 0.0, 'epoch': 0.0}
+Invalidate trace cache @ step 0 and module 4744: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 5930: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0004, 'grad_norm': 8.166232109069824, 'learning_rate': 9.98e-07, 'completion_length': 23.4375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2343750149011612, 'reward': 0.2343750149011612, 'reward_std': 0.06629126146435738, 'kl': 0.01116943359375, 'epoch': 0.0}
+Invalidate trace cache @ step 0 and module 7116: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 8302: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0005, 'grad_norm': 5.220768928527832, 'learning_rate': 9.959999999999999e-07, 'completion_length': 29.1875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250001043081284, 'reward': 0.26250001043081284, 'reward_std': 0.02651650458574295, 'kl': 0.01239013671875, 'epoch': 0.0}
+Invalidate trace cache @ step 0 and module 9488: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 10674: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0003, 'grad_norm': 5.272495269775391, 'learning_rate': 9.94e-07, 'completion_length': 32.59375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2250000163912773, 'reward': 0.22500000894069672, 'reward_std': 0.07954951003193855, 'kl': 0.0076446533203125, 'epoch': 0.0}
+Invalidate trace cache @ step 0 and module 11860: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 13046: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0003, 'grad_norm': 7.14084529876709, 'learning_rate': 9.92e-07, 'completion_length': 25.4375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.25312500447034836, 'reward': 0.25312501192092896, 'reward_std': 0.06629126146435738, 'kl': 0.006500244140625, 'epoch': 0.0}
+Invalidate trace cache @ step 0 and module 14232: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 15418: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0003, 'grad_norm': 2.6126534938812256, 'learning_rate': 9.9e-07, 'completion_length': 26.59375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.006591796875, 'epoch': 0.0}
+Invalidate trace cache @ step 0 and module 16604: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 17790: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0009, 'grad_norm': 8.577491760253906, 'learning_rate': 9.88e-07, 'completion_length': 23.9375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.25312500447034836, 'reward': 0.25312500447034836, 'reward_std': 0.06629126146435738, 'kl': 0.02203369140625, 'epoch': 0.0}
+Invalidate trace cache @ step 0 and module 18976: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 20162: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0., 0.],
+        [0., 0.]], device='cuda:0')
+{'loss': 0.0008, 'grad_norm': 0.17873959243297577, 'learning_rate': 9.86e-07, 'completion_length': 29.375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.2812500149011612, 'reward_std': 0.0, 'kl': 0.021087646484375, 'epoch': 0.0}
+Invalidate trace cache @ step 0 and module 21348: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 22534: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0004, 'grad_norm': 1.2361581325531006, 'learning_rate': 9.84e-07, 'completion_length': 37.53125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0090789794921875, 'epoch': 0.0}
+Invalidate trace cache @ step 0 and module 23720: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 24906: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0006, 'grad_norm': 7.2840895652771, 'learning_rate': 9.819999999999999e-07, 'completion_length': 21.78125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0150146484375, 'epoch': 0.01}
+Invalidate trace cache @ step 0 and module 26092: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 27278: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0008, 'grad_norm': 2.424262285232544, 'learning_rate': 9.8e-07, 'completion_length': 21.84375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2812500149011612, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.019012451171875, 'epoch': 0.01}
+Invalidate trace cache @ step 0 and module 28464: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 29650: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.0000]], device='cuda:0')
+{'loss': 0.0013, 'grad_norm': 4.415652275085449, 'learning_rate': 9.78e-07, 'completion_length': 32.3125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.25312501192092896, 'reward': 0.25312501192092896, 'reward_std': 0.06629126146435738, 'kl': 0.03155517578125, 'epoch': 0.01}
+Invalidate trace cache @ step 0 and module 30836: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 32022: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0015, 'grad_norm': 3.3661508560180664, 'learning_rate': 9.759999999999998e-07, 'completion_length': 23.84375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.038116455078125, 'epoch': 0.01}
+Invalidate trace cache @ step 0 and module 33208: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 34394: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0011, 'grad_norm': 2.3587582111358643, 'learning_rate': 9.74e-07, 'completion_length': 29.6875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.02838134765625, 'epoch': 0.01}
+Invalidate trace cache @ step 0 and module 35580: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 36766: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.001, 'grad_norm': 2.130401372909546, 'learning_rate': 9.72e-07, 'completion_length': 27.46875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.013258252292871475, 'kl': 0.02471923828125, 'epoch': 0.01}
+Invalidate trace cache @ step 0 and module 37952: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 39138: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0023, 'grad_norm': 1.7323471307754517, 'learning_rate': 9.7e-07, 'completion_length': 38.71875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0572509765625, 'epoch': 0.01}
+Invalidate trace cache @ step 0 and module 40324: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 41510: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 2.4124743938446045, 'learning_rate': 9.679999999999999e-07, 'completion_length': 23.84375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2812500149011612, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.0401611328125, 'epoch': 0.01}
+Invalidate trace cache @ step 0 and module 42696: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 43882: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0008, 'grad_norm': 2.7000133991241455, 'learning_rate': 9.66e-07, 'completion_length': 28.75, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.01922607421875, 'epoch': 0.01}
+Invalidate trace cache @ step 0 and module 45068: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 46254: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0011, 'grad_norm': 0.2615004777908325, 'learning_rate': 9.64e-07, 'completion_length': 31.40625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.02783203125, 'epoch': 0.01}
+Invalidate trace cache @ step 0 and module 47440: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 48626: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 2.9803147315979004, 'learning_rate': 9.619999999999999e-07, 'completion_length': 28.53125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.0400390625, 'epoch': 0.01}
+Invalidate trace cache @ step 0 and module 49812: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 50998: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0017, 'grad_norm': 2.5904245376586914, 'learning_rate': 9.6e-07, 'completion_length': 35.5, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.041748046875, 'epoch': 0.01}
+Invalidate trace cache @ step 0 and module 52184: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 53370: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0013, 'grad_norm': 2.5594098567962646, 'learning_rate': 9.58e-07, 'completion_length': 27.875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.03253173828125, 'epoch': 0.01}
+Invalidate trace cache @ step 0 and module 54556: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 55742: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0022, 'grad_norm': 3.5035769939422607, 'learning_rate': 9.559999999999998e-07, 'completion_length': 23.71875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.0546875, 'epoch': 0.01}
+Invalidate trace cache @ step 0 and module 56928: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 58114: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0021, 'grad_norm': 2.1351490020751953, 'learning_rate': 9.539999999999999e-07, 'completion_length': 34.09375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250000298023224, 'reward': 0.26250001043081284, 'reward_std': 0.02651650458574295, 'kl': 0.0528564453125, 'epoch': 0.01}
+Invalidate trace cache @ step 0 and module 59300: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 60486: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.0000]], device='cuda:0')
+{'loss': 0.0193, 'grad_norm': 11.930721282958984, 'learning_rate': 9.52e-07, 'completion_length': 23.6875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718749940395355, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.48504638671875, 'epoch': 0.01}
+Invalidate trace cache @ step 0 and module 61672: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 62858: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.001, 'grad_norm': 1.3620191812515259, 'learning_rate': 9.499999999999999e-07, 'completion_length': 23.6875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.02618408203125, 'epoch': 0.01}
+Invalidate trace cache @ step 0 and module 64044: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 65230: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 2.252159357070923, 'learning_rate': 9.479999999999999e-07, 'completion_length': 22.71875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.0389404296875, 'epoch': 0.01}
+Invalidate trace cache @ step 0 and module 66416: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 67602: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+{'loss': 0.0019, 'grad_norm': 5.011631488800049, 'learning_rate': 9.459999999999999e-07, 'completion_length': 19.375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.24374999850988388, 'reward': 0.24375001341104507, 'reward_std': 0.07954951375722885, 'kl': 0.0487060546875, 'epoch': 0.01}
+Invalidate trace cache @ step 0 and module 68788: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 69974: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0018, 'grad_norm': 2.754291534423828, 'learning_rate': 9.439999999999999e-07, 'completion_length': 28.3125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.04443359375, 'epoch': 0.01}
+Invalidate trace cache @ step 0 and module 71160: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 72346: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0033, 'grad_norm': 4.729860782623291, 'learning_rate': 9.419999999999999e-07, 'completion_length': 17.90625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.0821533203125, 'epoch': 0.02}
+Invalidate trace cache @ step 0 and module 73532: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 74718: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0017, 'grad_norm': 2.2453999519348145, 'learning_rate': 9.399999999999999e-07, 'completion_length': 20.5, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718749940395355, 'reward': 0.2718750089406967, 'reward_std': 0.013258252292871475, 'kl': 0.04345703125, 'epoch': 0.02}
+Invalidate trace cache @ step 0 and module 75904: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 77090: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.0000]], device='cuda:0')
+{'loss': 0.0015, 'grad_norm': 4.284323215484619, 'learning_rate': 9.379999999999998e-07, 'completion_length': 24.8125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.24375001341104507, 'reward': 0.24375000596046448, 'reward_std': 0.07954951375722885, 'kl': 0.0380859375, 'epoch': 0.02}
+Invalidate trace cache @ step 0 and module 78276: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 79462: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 1.4157476425170898, 'learning_rate': 9.36e-07, 'completion_length': 27.59375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.040771484375, 'epoch': 0.02}
+Invalidate trace cache @ step 0 and module 80648: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 81834: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.004, 'grad_norm': 4.377958297729492, 'learning_rate': 9.34e-07, 'completion_length': 20.53125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250000298023224, 'reward': 0.26250001788139343, 'reward_std': 0.0530330091714859, 'kl': 0.100830078125, 'epoch': 0.02}
+Invalidate trace cache @ step 0 and module 83020: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 84206: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+{'loss': 0.0021, 'grad_norm': 3.045133113861084, 'learning_rate': 9.32e-07, 'completion_length': 18.15625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.24375001341104507, 'reward': 0.24375001341104507, 'reward_std': 0.0530330091714859, 'kl': 0.053466796875, 'epoch': 0.02}
+Invalidate trace cache @ step 0 and module 85392: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 86578: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+{'loss': 0.0023, 'grad_norm': 3.888416290283203, 'learning_rate': 9.3e-07, 'completion_length': 17.0625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.25312501192092896, 'reward': 0.25312501192092896, 'reward_std': 0.06629126146435738, 'kl': 0.0570068359375, 'epoch': 0.02}
+Invalidate trace cache @ step 0 and module 87764: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 88950: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1., 0.],
+        [1., 0.]], device='cuda:0')
+{'loss': 0.0029, 'grad_norm': 2.0093812942504883, 'learning_rate': 9.28e-07, 'completion_length': 22.5625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718749940395355, 'reward': 0.2718750089406967, 'reward_std': 0.013258252292871475, 'kl': 0.0731201171875, 'epoch': 0.02}
+Invalidate trace cache @ step 0 and module 90136: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 91322: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0025, 'grad_norm': 0.560874342918396, 'learning_rate': 9.26e-07, 'completion_length': 23.0625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.063232421875, 'epoch': 0.02}
+Invalidate trace cache @ step 0 and module 92508: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 93694: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0046, 'grad_norm': 2.289804458618164, 'learning_rate': 9.24e-07, 'completion_length': 15.75, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750163912773, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.11376953125, 'epoch': 0.02}
+Invalidate trace cache @ step 0 and module 94880: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 96066: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0027, 'grad_norm': 3.50834059715271, 'learning_rate': 9.22e-07, 'completion_length': 24.71875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250000298023224, 'reward': 0.26250000298023224, 'reward_std': 0.0530330091714859, 'kl': 0.06640625, 'epoch': 0.02}
+Invalidate trace cache @ step 0 and module 97252: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 98438: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0038, 'grad_norm': 2.1059844493865967, 'learning_rate': 9.2e-07, 'completion_length': 18.75, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0947265625, 'epoch': 0.02}
+Invalidate trace cache @ step 0 and module 99624: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 100810: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0022, 'grad_norm': 2.2804853916168213, 'learning_rate': 9.18e-07, 'completion_length': 18.96875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.05419921875, 'epoch': 0.02}
+Invalidate trace cache @ step 0 and module 101996: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 103182: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0028, 'grad_norm': 1.3268184661865234, 'learning_rate': 9.16e-07, 'completion_length': 21.0, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.013258252292871475, 'kl': 0.0692138671875, 'epoch': 0.02}
+Invalidate trace cache @ step 0 and module 104368: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 105554: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0018, 'grad_norm': 1.0313798189163208, 'learning_rate': 9.14e-07, 'completion_length': 18.53125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.0452880859375, 'epoch': 0.02}
+Invalidate trace cache @ step 0 and module 106740: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 107926: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0017, 'grad_norm': 2.0680322647094727, 'learning_rate': 9.12e-07, 'completion_length': 26.375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0435791015625, 'epoch': 0.02}
+Invalidate trace cache @ step 0 and module 109112: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 110298: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0019, 'grad_norm': 3.0682461261749268, 'learning_rate': 9.1e-07, 'completion_length': 26.34375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.0478515625, 'epoch': 0.02}
+Invalidate trace cache @ step 0 and module 111484: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 112670: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0018, 'grad_norm': 1.4728058576583862, 'learning_rate': 9.08e-07, 'completion_length': 19.3125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2812500149011612, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.0447998046875, 'epoch': 0.02}
+Invalidate trace cache @ step 0 and module 113856: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 115042: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.002, 'grad_norm': 2.4710044860839844, 'learning_rate': 9.06e-07, 'completion_length': 30.5625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.049072265625, 'epoch': 0.02}
+Invalidate trace cache @ step 0 and module 116228: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 117414: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0019, 'grad_norm': 1.4148467779159546, 'learning_rate': 9.039999999999999e-07, 'completion_length': 25.03125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0462646484375, 'epoch': 0.02}
+Invalidate trace cache @ step 0 and module 118600: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 119786: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0017, 'grad_norm': 2.4350426197052, 'learning_rate': 9.02e-07, 'completion_length': 27.03125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.0428466796875, 'epoch': 0.03}
+Invalidate trace cache @ step 0 and module 120972: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 122158: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 2.959362030029297, 'learning_rate': 9e-07, 'completion_length': 29.09375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.0411376953125, 'epoch': 0.03}
+Invalidate trace cache @ step 0 and module 123344: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 124530: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0015, 'grad_norm': 3.0796990394592285, 'learning_rate': 8.98e-07, 'completion_length': 24.40625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250000298023224, 'reward': 0.26250000298023224, 'reward_std': 0.0530330091714859, 'kl': 0.03729248046875, 'epoch': 0.03}
+Invalidate trace cache @ step 0 and module 125716: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 126902: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0019, 'grad_norm': 3.024441719055176, 'learning_rate': 8.96e-07, 'completion_length': 24.34375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.0465087890625, 'epoch': 0.03}
+Invalidate trace cache @ step 0 and module 128088: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 129274: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0028, 'grad_norm': 2.4389655590057373, 'learning_rate': 8.939999999999999e-07, 'completion_length': 26.03125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.071044921875, 'epoch': 0.03}
+Invalidate trace cache @ step 0 and module 130460: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 131646: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 2.055603265762329, 'learning_rate': 8.92e-07, 'completion_length': 22.0, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.03955078125, 'epoch': 0.03}
+Invalidate trace cache @ step 0 and module 132832: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 134018: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0228, 'grad_norm': 422.3201904296875, 'learning_rate': 8.9e-07, 'completion_length': 29.5625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.5709228515625, 'epoch': 0.03}
+Invalidate trace cache @ step 0 and module 135204: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 136390: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0012, 'grad_norm': 1.0161131620407104, 'learning_rate': 8.88e-07, 'completion_length': 21.3125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.02923583984375, 'epoch': 0.03}
+Invalidate trace cache @ step 0 and module 137576: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 138762: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.003, 'grad_norm': 2.3674538135528564, 'learning_rate': 8.86e-07, 'completion_length': 26.65625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2812500149011612, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.0753173828125, 'epoch': 0.03}
+Invalidate trace cache @ step 0 and module 139948: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 141134: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 3.26778244972229, 'learning_rate': 8.839999999999999e-07, 'completion_length': 30.5, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718749940395355, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.039306640625, 'epoch': 0.03}
+Invalidate trace cache @ step 0 and module 142320: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 143506: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0011, 'grad_norm': 1.8723031282424927, 'learning_rate': 8.82e-07, 'completion_length': 28.6875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.02740478515625, 'epoch': 0.03}
+Invalidate trace cache @ step 0 and module 144692: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 145878: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0021, 'grad_norm': 1.8941038846969604, 'learning_rate': 8.799999999999999e-07, 'completion_length': 33.03125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2812500149011612, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.052734375, 'epoch': 0.03}
+Invalidate trace cache @ step 0 and module 147064: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 148250: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0014, 'grad_norm': 3.526285409927368, 'learning_rate': 8.78e-07, 'completion_length': 30.875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.03466796875, 'epoch': 0.03}
+Invalidate trace cache @ step 0 and module 149436: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 150622: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0021, 'grad_norm': 1.8544408082962036, 'learning_rate': 8.76e-07, 'completion_length': 28.4375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.0521240234375, 'epoch': 0.03}
+Invalidate trace cache @ step 0 and module 151808: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 152994: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0019, 'grad_norm': 6.647141456604004, 'learning_rate': 8.739999999999999e-07, 'completion_length': 33.0625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250000298023224, 'reward': 0.26250000298023224, 'reward_std': 0.0530330091714859, 'kl': 0.046875, 'epoch': 0.03}
+Invalidate trace cache @ step 0 and module 154180: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 155366: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0021, 'grad_norm': 3.2024333477020264, 'learning_rate': 8.72e-07, 'completion_length': 24.875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.0537109375, 'epoch': 0.03}
+Invalidate trace cache @ step 0 and module 156552: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 157738: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0023, 'grad_norm': 1.9379374980926514, 'learning_rate': 8.699999999999999e-07, 'completion_length': 33.625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0574951171875, 'epoch': 0.03}
+Invalidate trace cache @ step 0 and module 158924: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 160110: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0031, 'grad_norm': 2.86126971244812, 'learning_rate': 8.68e-07, 'completion_length': 35.25, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2812500149011612, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.07861328125, 'epoch': 0.03}
+Invalidate trace cache @ step 0 and module 161296: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 162482: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0037, 'grad_norm': 2.125000476837158, 'learning_rate': 8.659999999999999e-07, 'completion_length': 30.03125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.091796875, 'epoch': 0.03}
+Invalidate trace cache @ step 0 and module 163668: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 164854: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0043, 'grad_norm': 1.9018011093139648, 'learning_rate': 8.639999999999999e-07, 'completion_length': 30.875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.107421875, 'epoch': 0.03}
+Invalidate trace cache @ step 0 and module 166040: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 167226: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0022, 'grad_norm': 1.093438744544983, 'learning_rate': 8.62e-07, 'completion_length': 34.0625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0546875, 'epoch': 0.04}
+Invalidate trace cache @ step 0 and module 168412: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 169598: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0014, 'grad_norm': 1.1804866790771484, 'learning_rate': 8.599999999999999e-07, 'completion_length': 28.9375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.013258252292871475, 'kl': 0.034912109375, 'epoch': 0.04}
+Invalidate trace cache @ step 0 and module 170784: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 171970: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0015, 'grad_norm': 1.498099446296692, 'learning_rate': 8.58e-07, 'completion_length': 34.3125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0382080078125, 'epoch': 0.04}
+Invalidate trace cache @ step 0 and module 173156: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 174342: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0014, 'grad_norm': 3.5061492919921875, 'learning_rate': 8.559999999999999e-07, 'completion_length': 29.6875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28437500447034836, 'reward': 0.28437499701976776, 'reward_std': 0.08396892994642258, 'kl': 0.0347900390625, 'epoch': 0.04}
+Invalidate trace cache @ step 0 and module 175528: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 176714: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0015, 'grad_norm': 2.6126208305358887, 'learning_rate': 8.539999999999999e-07, 'completion_length': 23.15625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.0362548828125, 'epoch': 0.04}
+Invalidate trace cache @ step 0 and module 177900: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 179086: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0035, 'grad_norm': 24.98780059814453, 'learning_rate': 8.52e-07, 'completion_length': 23.75, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250000298023224, 'reward': 0.26250000298023224, 'reward_std': 0.0530330091714859, 'kl': 0.0869140625, 'epoch': 0.04}
+Invalidate trace cache @ step 0 and module 180272: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 181458: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0017, 'grad_norm': 2.731945276260376, 'learning_rate': 8.499999999999999e-07, 'completion_length': 29.25, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.24374999850988388, 'reward': 0.24375001341104507, 'reward_std': 0.07954951375722885, 'kl': 0.041259765625, 'epoch': 0.04}
+Invalidate trace cache @ step 0 and module 182644: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 183830: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0021, 'grad_norm': 1.4318418502807617, 'learning_rate': 8.48e-07, 'completion_length': 31.65625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.052490234375, 'epoch': 0.04}
+Invalidate trace cache @ step 0 and module 185016: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 186202: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0019, 'grad_norm': 2.018623113632202, 'learning_rate': 8.459999999999999e-07, 'completion_length': 27.34375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.0474853515625, 'epoch': 0.04}
+Invalidate trace cache @ step 0 and module 187388: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 188574: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 2.2572381496429443, 'learning_rate': 8.439999999999999e-07, 'completion_length': 30.875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.0399169921875, 'epoch': 0.04}
+Invalidate trace cache @ step 0 and module 189760: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 190946: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0019, 'grad_norm': 3.2919890880584717, 'learning_rate': 8.419999999999999e-07, 'completion_length': 22.8125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.25312501192092896, 'reward': 0.25312501192092896, 'reward_std': 0.06629125773906708, 'kl': 0.0484619140625, 'epoch': 0.04}
+Invalidate trace cache @ step 0 and module 192132: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 193318: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+{'loss': 0.0024, 'grad_norm': 1.1253180503845215, 'learning_rate': 8.399999999999999e-07, 'completion_length': 17.0625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.05963134765625, 'epoch': 0.04}
+Invalidate trace cache @ step 0 and module 194504: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 195690: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0019, 'grad_norm': 3.8498375415802, 'learning_rate': 8.38e-07, 'completion_length': 29.09375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250001043081284, 'reward': 0.26250000298023224, 'reward_std': 0.02651650458574295, 'kl': 0.0462646484375, 'epoch': 0.04}
+Invalidate trace cache @ step 0 and module 196876: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 198062: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0017, 'grad_norm': 3.336780548095703, 'learning_rate': 8.359999999999999e-07, 'completion_length': 31.0, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.27500002831220627, 'reward': 0.2750000059604645, 'reward_std': 0.09722718223929405, 'kl': 0.0421142578125, 'epoch': 0.04}
+Invalidate trace cache @ step 0 and module 199248: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 200434: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0017, 'grad_norm': 1.3184549808502197, 'learning_rate': 8.34e-07, 'completion_length': 23.1875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0418701171875, 'epoch': 0.04}
+Invalidate trace cache @ step 0 and module 201620: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 202806: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0022, 'grad_norm': 1.6109788417816162, 'learning_rate': 8.319999999999999e-07, 'completion_length': 26.40625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.055908203125, 'epoch': 0.04}
+Invalidate trace cache @ step 0 and module 203992: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 205178: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0021, 'grad_norm': 3.024001359939575, 'learning_rate': 8.299999999999999e-07, 'completion_length': 24.0625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.25312501192092896, 'reward': 0.25312501192092896, 'reward_std': 0.06629126146435738, 'kl': 0.05157470703125, 'epoch': 0.04}
+Invalidate trace cache @ step 0 and module 206364: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 207550: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0014, 'grad_norm': 2.7219839096069336, 'learning_rate': 8.28e-07, 'completion_length': 22.40625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.0343017578125, 'epoch': 0.04}
+Invalidate trace cache @ step 0 and module 208736: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 209922: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.003, 'grad_norm': 2.800539493560791, 'learning_rate': 8.259999999999999e-07, 'completion_length': 20.59375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.25312501192092896, 'reward': 0.25312501192092896, 'reward_std': 0.039774756878614426, 'kl': 0.07421875, 'epoch': 0.04}
+Invalidate trace cache @ step 0 and module 211108: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 212294: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0013, 'grad_norm': 1.6559572219848633, 'learning_rate': 8.24e-07, 'completion_length': 18.28125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.031982421875, 'epoch': 0.04}
+Invalidate trace cache @ step 0 and module 213480: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 214666: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0012, 'grad_norm': 1.9101688861846924, 'learning_rate': 8.219999999999999e-07, 'completion_length': 19.59375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.02960205078125, 'epoch': 0.05}
+Invalidate trace cache @ step 0 and module 215852: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 217038: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0121, 'grad_norm': 8.79523754119873, 'learning_rate': 8.199999999999999e-07, 'completion_length': 25.71875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.3031005859375, 'epoch': 0.05}
+Invalidate trace cache @ step 0 and module 218224: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 219410: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0014, 'grad_norm': 2.2222776412963867, 'learning_rate': 8.179999999999999e-07, 'completion_length': 20.1875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.03485107421875, 'epoch': 0.05}
+Invalidate trace cache @ step 0 and module 220596: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 221782: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 1.8025215864181519, 'learning_rate': 8.159999999999999e-07, 'completion_length': 25.3125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.03955078125, 'epoch': 0.05}
+Invalidate trace cache @ step 0 and module 222968: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 224154: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0013, 'grad_norm': 3.1103501319885254, 'learning_rate': 8.14e-07, 'completion_length': 23.8125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.03253173828125, 'epoch': 0.05}
+Invalidate trace cache @ step 0 and module 225340: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 226526: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0012, 'grad_norm': 0.9708163738250732, 'learning_rate': 8.12e-07, 'completion_length': 28.1875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0302734375, 'epoch': 0.05}
+Invalidate trace cache @ step 0 and module 227712: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 228898: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 3.9795877933502197, 'learning_rate': 8.1e-07, 'completion_length': 24.1875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750163912773, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.04052734375, 'epoch': 0.05}
+Invalidate trace cache @ step 0 and module 230084: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 231270: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0023, 'grad_norm': 3.930602550506592, 'learning_rate': 8.08e-07, 'completion_length': 35.03125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.0572509765625, 'epoch': 0.05}
+Invalidate trace cache @ step 0 and module 232456: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 233642: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0021, 'grad_norm': 1.610073447227478, 'learning_rate': 8.06e-07, 'completion_length': 26.6875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.053466796875, 'epoch': 0.05}
+Invalidate trace cache @ step 0 and module 234828: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 236014: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0057, 'grad_norm': 3.350398302078247, 'learning_rate': 8.04e-07, 'completion_length': 24.28125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.14208984375, 'epoch': 0.05}
+Invalidate trace cache @ step 0 and module 237200: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 238386: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0018, 'grad_norm': 0.33715176582336426, 'learning_rate': 8.02e-07, 'completion_length': 37.40625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.04547119140625, 'epoch': 0.05}
+Configuration saved in exp/model/checkpoint-100/config.json
+Configuration saved in exp/model/checkpoint-100/generation_config.json
+The model is bigger than the maximum size per checkpoint (5GB) and is going to be split in 4 checkpoint shards. You can find where each parameters has been saved in the index located at exp/model/checkpoint-100/model.safetensors.index.json.
+Image processor saved in exp/model/checkpoint-100/preprocessor_config.json
+Video processor saved in exp/model/checkpoint-100/video_preprocessor_config.json
+Feature extractor saved in exp/model/checkpoint-100/preprocessor_config.json
+chat template saved in exp/model/checkpoint-100/chat_template.jinja
+tokenizer config file saved in exp/model/checkpoint-100/tokenizer_config.json
+Special tokens file saved in exp/model/checkpoint-100/special_tokens_map.json
+chat template saved in exp/model/checkpoint-100/chat_template.jinja
+Invalidate trace cache @ step 0 and module 239572: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 240758: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+ 21%|██        | 104/500 [1:26:57<5:48:45, 52.84s/it]
+{'loss': 0.0022, 'grad_norm': 1.861253261566162, 'learning_rate': 8e-07, 'completion_length': 29.71875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.0546875, 'epoch': 0.05}
+Invalidate trace cache @ step 0 and module 241944: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 243130: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 1.244024395942688, 'learning_rate': 7.98e-07, 'completion_length': 30.03125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0396728515625, 'epoch': 0.05}
+Invalidate trace cache @ step 0 and module 244316: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 245502: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0024, 'grad_norm': 2.267163038253784, 'learning_rate': 7.96e-07, 'completion_length': 32.84375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2812500149011612, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.05926513671875, 'epoch': 0.05}
+Invalidate trace cache @ step 0 and module 246688: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 247874: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0015, 'grad_norm': 1.3372641801834106, 'learning_rate': 7.94e-07, 'completion_length': 35.59375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0384521484375, 'epoch': 0.05}
+Invalidate trace cache @ step 0 and module 249060: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 250246: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0019, 'grad_norm': 0.18705134093761444, 'learning_rate': 7.92e-07, 'completion_length': 36.4375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.04833984375, 'epoch': 0.05}
+Invalidate trace cache @ step 0 and module 251432: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 252618: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0011, 'grad_norm': 3.2590994834899902, 'learning_rate': 7.9e-07, 'completion_length': 25.875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250001788139343, 'reward': 0.26250001788139343, 'reward_std': 0.0530330091714859, 'kl': 0.02777099609375, 'epoch': 0.05}
+Invalidate trace cache @ step 0 and module 253804: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 254990: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0013, 'grad_norm': 1.366395354270935, 'learning_rate': 7.88e-07, 'completion_length': 31.0625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.03204345703125, 'epoch': 0.05}
+Invalidate trace cache @ step 0 and module 256176: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 257362: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0013, 'grad_norm': 2.411932945251465, 'learning_rate': 7.86e-07, 'completion_length': 28.875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.03277587890625, 'epoch': 0.05}
+Invalidate trace cache @ step 0 and module 258548: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 259734: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0018, 'grad_norm': 1.5211513042449951, 'learning_rate': 7.84e-07, 'completion_length': 26.5625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0440673828125, 'epoch': 0.05}
+Invalidate trace cache @ step 0 and module 260920: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0., 0.],
+        [0., 0.]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 262106: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0015, 'grad_norm': 0.2563621997833252, 'learning_rate': 7.82e-07, 'completion_length': 32.96875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718749940395355, 'reward': 0.2718750089406967, 'reward_std': 0.013258252292871475, 'kl': 0.0380859375, 'epoch': 0.06}
+Invalidate trace cache @ step 0 and module 263292: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 264478: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0022, 'grad_norm': 2.5464751720428467, 'learning_rate': 7.799999999999999e-07, 'completion_length': 25.9375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.0545654296875, 'epoch': 0.06}
+Invalidate trace cache @ step 0 and module 265664: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 266850: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0015, 'grad_norm': 2.9705705642700195, 'learning_rate': 7.78e-07, 'completion_length': 25.40625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0379638671875, 'epoch': 0.06}
+Invalidate trace cache @ step 0 and module 268036: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 269222: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.004, 'grad_norm': 3.928467273712158, 'learning_rate': 7.76e-07, 'completion_length': 32.78125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250000298023224, 'reward': 0.26250000298023224, 'reward_std': 0.0530330091714859, 'kl': 0.098876953125, 'epoch': 0.06}
+Invalidate trace cache @ step 0 and module 270408: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 271594: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.0000]], device='cuda:0')
+{'loss': 0.0011, 'grad_norm': 2.3503305912017822, 'learning_rate': 7.74e-07, 'completion_length': 22.96875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.25312501192092896, 'reward': 0.25312501192092896, 'reward_std': 0.06629125773906708, 'kl': 0.0281982421875, 'epoch': 0.06}
+Invalidate trace cache @ step 0 and module 272780: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 273966: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0025, 'grad_norm': 1.8751004934310913, 'learning_rate': 7.72e-07, 'completion_length': 27.875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2812500149011612, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.063232421875, 'epoch': 0.06}
+Invalidate trace cache @ step 0 and module 275152: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 276338: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.002, 'grad_norm': 1.3631030321121216, 'learning_rate': 7.699999999999999e-07, 'completion_length': 33.59375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2812500149011612, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.0489501953125, 'epoch': 0.06}
+Invalidate trace cache @ step 0 and module 277524: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 278710: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+{'loss': 0.0019, 'grad_norm': 2.5521833896636963, 'learning_rate': 7.68e-07, 'completion_length': 29.84375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.0462646484375, 'epoch': 0.06}
+Invalidate trace cache @ step 0 and module 279896: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 281082: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0029, 'grad_norm': 1.5510737895965576, 'learning_rate': 7.66e-07, 'completion_length': 23.5625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.072509765625, 'epoch': 0.06}
+Invalidate trace cache @ step 0 and module 282268: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 283454: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.0000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.002, 'grad_norm': 1.871835470199585, 'learning_rate': 7.64e-07, 'completion_length': 25.125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.050048828125, 'epoch': 0.06}
+Invalidate trace cache @ step 0 and module 284640: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 285826: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0021, 'grad_norm': 1.5784945487976074, 'learning_rate': 7.62e-07, 'completion_length': 25.4375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0516357421875, 'epoch': 0.06}
+Invalidate trace cache @ step 0 and module 287012: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 288198: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0025, 'grad_norm': 1.9948625564575195, 'learning_rate': 7.599999999999999e-07, 'completion_length': 20.40625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.0625, 'epoch': 0.06}
+Invalidate trace cache @ step 0 and module 289384: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 290570: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0027, 'grad_norm': 1.9441559314727783, 'learning_rate': 7.58e-07, 'completion_length': 33.53125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2812500149011612, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.0667724609375, 'epoch': 0.06}
+Invalidate trace cache @ step 0 and module 291756: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 292942: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0027, 'grad_norm': 1.3410322666168213, 'learning_rate': 7.559999999999999e-07, 'completion_length': 27.5, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.067138671875, 'epoch': 0.06}
+Invalidate trace cache @ step 0 and module 294128: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 295314: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0029, 'grad_norm': 1.511415958404541, 'learning_rate': 7.54e-07, 'completion_length': 30.625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2812500149011612, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.0723876953125, 'epoch': 0.06}
+Invalidate trace cache @ step 0 and module 296500: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 297686: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0025, 'grad_norm': 2.07267165184021, 'learning_rate': 7.52e-07, 'completion_length': 29.3125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.063232421875, 'epoch': 0.06}
+Invalidate trace cache @ step 0 and module 298872: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 300058: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.002, 'grad_norm': 2.6343536376953125, 'learning_rate': 7.5e-07, 'completion_length': 30.5625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.0496826171875, 'epoch': 0.06}
+Invalidate trace cache @ step 0 and module 301244: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 302430: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0018, 'grad_norm': 1.3803284168243408, 'learning_rate': 7.48e-07, 'completion_length': 37.5625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2812500149011612, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.045654296875, 'epoch': 0.06}
+Invalidate trace cache @ step 0 and module 303616: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 304802: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.003, 'grad_norm': 3.833320379257202, 'learning_rate': 7.459999999999999e-07, 'completion_length': 25.875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.24375000596046448, 'reward': 0.24375000596046448, 'reward_std': 0.07954951375722885, 'kl': 0.073974609375, 'epoch': 0.06}
+Invalidate trace cache @ step 0 and module 305988: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 307174: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0017, 'grad_norm': 1.1099390983581543, 'learning_rate': 7.44e-07, 'completion_length': 24.90625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.04205322265625, 'epoch': 0.06}
+Invalidate trace cache @ step 0 and module 308360: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 309546: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0026, 'grad_norm': 2.8763720989227295, 'learning_rate': 7.42e-07, 'completion_length': 24.71875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.06591796875, 'epoch': 0.07}
+Invalidate trace cache @ step 0 and module 310732: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 311918: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.002, 'grad_norm': 1.254570722579956, 'learning_rate': 7.4e-07, 'completion_length': 27.125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0494384765625, 'epoch': 0.07}
+Invalidate trace cache @ step 0 and module 313104: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 314290: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 1.3315131664276123, 'learning_rate': 7.38e-07, 'completion_length': 28.875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.04052734375, 'epoch': 0.07}
+Invalidate trace cache @ step 0 and module 315476: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 316662: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0023, 'grad_norm': 1.8253743648529053, 'learning_rate': 7.359999999999999e-07, 'completion_length': 36.03125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2812500149011612, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.0567626953125, 'epoch': 0.07}
+Invalidate trace cache @ step 0 and module 317848: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 319034: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0021, 'grad_norm': 2.575263738632202, 'learning_rate': 7.34e-07, 'completion_length': 30.84375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.0533447265625, 'epoch': 0.07}
+Invalidate trace cache @ step 0 and module 320220: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 321406: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0023, 'grad_norm': 1.5956740379333496, 'learning_rate': 7.319999999999999e-07, 'completion_length': 34.78125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.058837890625, 'epoch': 0.07}
+Invalidate trace cache @ step 0 and module 322592: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 323778: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.002, 'grad_norm': 1.6842211484909058, 'learning_rate': 7.3e-07, 'completion_length': 36.90625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0501708984375, 'epoch': 0.07}
+Invalidate trace cache @ step 0 and module 324964: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 326150: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0023, 'grad_norm': 0.438272088766098, 'learning_rate': 7.28e-07, 'completion_length': 30.625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.0579833984375, 'epoch': 0.07}
+Invalidate trace cache @ step 0 and module 327336: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 328522: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0042, 'grad_norm': 3.6664676666259766, 'learning_rate': 7.259999999999999e-07, 'completion_length': 32.96875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.1044921875, 'epoch': 0.07}
+Invalidate trace cache @ step 0 and module 329708: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 330894: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0025, 'grad_norm': 0.6880038976669312, 'learning_rate': 7.24e-07, 'completion_length': 29.90625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.0615234375, 'epoch': 0.07}
+Invalidate trace cache @ step 0 and module 332080: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 333266: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.002, 'grad_norm': 2.3038971424102783, 'learning_rate': 7.219999999999999e-07, 'completion_length': 28.25, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0506591796875, 'epoch': 0.07}
+Invalidate trace cache @ step 0 and module 334452: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 335638: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0019, 'grad_norm': 1.4059419631958008, 'learning_rate': 7.2e-07, 'completion_length': 28.53125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.046875, 'epoch': 0.07}
+Invalidate trace cache @ step 0 and module 336824: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 338010: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0023, 'grad_norm': 1.1231802701950073, 'learning_rate': 7.179999999999999e-07, 'completion_length': 25.6875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0584716796875, 'epoch': 0.07}
+Invalidate trace cache @ step 0 and module 339196: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 340382: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0023, 'grad_norm': 0.39858806133270264, 'learning_rate': 7.159999999999999e-07, 'completion_length': 28.875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.057861328125, 'epoch': 0.07}
+Invalidate trace cache @ step 0 and module 341568: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 342754: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0023, 'grad_norm': 1.9485002756118774, 'learning_rate': 7.14e-07, 'completion_length': 27.4375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.05859375, 'epoch': 0.07}
+Invalidate trace cache @ step 0 and module 343940: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 345126: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0026, 'grad_norm': 1.5374425649642944, 'learning_rate': 7.119999999999999e-07, 'completion_length': 29.90625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.065673828125, 'epoch': 0.07}
+Invalidate trace cache @ step 0 and module 346312: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 347498: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0028, 'grad_norm': 0.7951323390007019, 'learning_rate': 7.1e-07, 'completion_length': 26.9375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.069091796875, 'epoch': 0.07}
+Invalidate trace cache @ step 0 and module 348684: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 349870: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0019, 'grad_norm': 1.2644752264022827, 'learning_rate': 7.079999999999999e-07, 'completion_length': 32.59375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0478515625, 'epoch': 0.07}
+Invalidate trace cache @ step 0 and module 351056: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 352242: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0025, 'grad_norm': 0.5447643995285034, 'learning_rate': 7.059999999999999e-07, 'completion_length': 23.625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.061279296875, 'epoch': 0.07}
+Invalidate trace cache @ step 0 and module 353428: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 354614: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0031, 'grad_norm': 1.0314910411834717, 'learning_rate': 7.04e-07, 'completion_length': 30.03125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.07861328125, 'epoch': 0.07}
+Invalidate trace cache @ step 0 and module 355800: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 356986: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0019, 'grad_norm': 0.2802932560443878, 'learning_rate': 7.019999999999999e-07, 'completion_length': 34.78125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.048095703125, 'epoch': 0.08}
+Invalidate trace cache @ step 0 and module 358172: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 359358: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.002, 'grad_norm': 0.35956883430480957, 'learning_rate': 7e-07, 'completion_length': 24.1875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.051025390625, 'epoch': 0.08}
+Invalidate trace cache @ step 0 and module 360544: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 361730: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0015, 'grad_norm': 0.3001508414745331, 'learning_rate': 6.979999999999999e-07, 'completion_length': 27.125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.036865234375, 'epoch': 0.08}
+Invalidate trace cache @ step 0 and module 362916: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 364102: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0015, 'grad_norm': 0.275875061750412, 'learning_rate': 6.959999999999999e-07, 'completion_length': 24.53125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.0374755859375, 'epoch': 0.08}
+Invalidate trace cache @ step 0 and module 365288: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 366474: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0026, 'grad_norm': 1.7861040830612183, 'learning_rate': 6.939999999999999e-07, 'completion_length': 33.75, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.06494140625, 'epoch': 0.08}
+Invalidate trace cache @ step 0 and module 367660: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 368846: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0019, 'grad_norm': 1.1272964477539062, 'learning_rate': 6.919999999999999e-07, 'completion_length': 34.46875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.046875, 'epoch': 0.08}
+Invalidate trace cache @ step 0 and module 370032: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 371218: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 1.6498463153839111, 'learning_rate': 6.9e-07, 'completion_length': 33.875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.040771484375, 'epoch': 0.08}
+Invalidate trace cache @ step 0 and module 372404: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 373590: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0017, 'grad_norm': 1.8814469575881958, 'learning_rate': 6.879999999999999e-07, 'completion_length': 35.21875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2812500149011612, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.04248046875, 'epoch': 0.08}
+Invalidate trace cache @ step 0 and module 374776: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 375962: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0035, 'grad_norm': 1.8326125144958496, 'learning_rate': 6.86e-07, 'completion_length': 41.625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0875244140625, 'epoch': 0.08}
+Invalidate trace cache @ step 0 and module 377148: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 378334: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0017, 'grad_norm': 1.1571025848388672, 'learning_rate': 6.84e-07, 'completion_length': 34.3125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.04180908203125, 'epoch': 0.08}
+Invalidate trace cache @ step 0 and module 379520: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 380706: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0022, 'grad_norm': 1.1631758213043213, 'learning_rate': 6.82e-07, 'completion_length': 32.25, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0557861328125, 'epoch': 0.08}
+Invalidate trace cache @ step 0 and module 381892: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 383078: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 1.7499414682388306, 'learning_rate': 6.800000000000001e-07, 'completion_length': 29.4375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.03955078125, 'epoch': 0.08}
+Invalidate trace cache @ step 0 and module 384264: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 385450: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0022, 'grad_norm': 1.939650297164917, 'learning_rate': 6.78e-07, 'completion_length': 46.4375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.05419921875, 'epoch': 0.08}
+Invalidate trace cache @ step 0 and module 386636: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 387822: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0029, 'grad_norm': 0.3106749653816223, 'learning_rate': 6.76e-07, 'completion_length': 41.03125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.07373046875, 'epoch': 0.08}
+Invalidate trace cache @ step 0 and module 389008: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 390194: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0023, 'grad_norm': 2.564415216445923, 'learning_rate': 6.74e-07, 'completion_length': 41.125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250000298023224, 'reward': 0.26250001788139343, 'reward_std': 0.0530330091714859, 'kl': 0.058349609375, 'epoch': 0.08}
+Invalidate trace cache @ step 0 and module 391380: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 392566: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.003, 'grad_norm': 3.203481435775757, 'learning_rate': 6.72e-07, 'completion_length': 33.0, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.073974609375, 'epoch': 0.08}
+Invalidate trace cache @ step 0 and module 393752: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 394938: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0028, 'grad_norm': 3.243753433227539, 'learning_rate': 6.7e-07, 'completion_length': 30.46875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.070068359375, 'epoch': 0.08}
+Invalidate trace cache @ step 0 and module 396124: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 397310: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0022, 'grad_norm': 1.2921825647354126, 'learning_rate': 6.68e-07, 'completion_length': 31.65625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0540771484375, 'epoch': 0.08}
+Invalidate trace cache @ step 0 and module 398496: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 399682: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0017, 'grad_norm': 0.26926878094673157, 'learning_rate': 6.66e-07, 'completion_length': 27.53125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.04339599609375, 'epoch': 0.08}
+Invalidate trace cache @ step 0 and module 400868: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 402054: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 0.29576417803764343, 'learning_rate': 6.64e-07, 'completion_length': 39.03125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.0404052734375, 'epoch': 0.08}
+Invalidate trace cache @ step 0 and module 403240: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 404426: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0013, 'grad_norm': 2.8129096031188965, 'learning_rate': 6.62e-07, 'completion_length': 34.84375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250000298023224, 'reward': 0.26250000298023224, 'reward_std': 0.0530330091714859, 'kl': 0.03131103515625, 'epoch': 0.09}
+Invalidate trace cache @ step 0 and module 405612: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 406798: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.0000]], device='cuda:0')
+{'loss': 0.0021, 'grad_norm': 2.4453229904174805, 'learning_rate': 6.6e-07, 'completion_length': 58.09375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250000298023224, 'reward': 0.26250001788139343, 'reward_std': 0.0530330091714859, 'kl': 0.0513916015625, 'epoch': 0.09}
+Invalidate trace cache @ step 0 and module 407984: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 409170: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0014, 'grad_norm': 0.18687863647937775, 'learning_rate': 6.58e-07, 'completion_length': 28.5, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.03497314453125, 'epoch': 0.09}
+Invalidate trace cache @ step 0 and module 410356: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 411542: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0021, 'grad_norm': 0.25890830159187317, 'learning_rate': 6.56e-07, 'completion_length': 32.6875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.052978515625, 'epoch': 0.09}
+Invalidate trace cache @ step 0 and module 412728: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 413914: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0023, 'grad_norm': 1.8155947923660278, 'learning_rate': 6.54e-07, 'completion_length': 29.65625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.057861328125, 'epoch': 0.09}
+Invalidate trace cache @ step 0 and module 415100: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 416286: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 2.175253391265869, 'learning_rate': 6.52e-07, 'completion_length': 27.90625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0394287109375, 'epoch': 0.09}
+Invalidate trace cache @ step 0 and module 417472: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 418658: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0017, 'grad_norm': 0.2416946440935135, 'learning_rate': 6.5e-07, 'completion_length': 35.15625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.04345703125, 'epoch': 0.09}
+Invalidate trace cache @ step 0 and module 419844: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 421030: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0017, 'grad_norm': 1.785560965538025, 'learning_rate': 6.48e-07, 'completion_length': 39.40625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.04217529296875, 'epoch': 0.09}
+Invalidate trace cache @ step 0 and module 422216: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 423402: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0014, 'grad_norm': 1.0468839406967163, 'learning_rate': 6.46e-07, 'completion_length': 40.125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.03521728515625, 'epoch': 0.09}
+Invalidate trace cache @ step 0 and module 424588: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 425774: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0024, 'grad_norm': 1.3224143981933594, 'learning_rate': 6.44e-07, 'completion_length': 26.875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.0592041015625, 'epoch': 0.09}
+Invalidate trace cache @ step 0 and module 426960: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 428146: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0023, 'grad_norm': 1.2780232429504395, 'learning_rate': 6.42e-07, 'completion_length': 38.125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.056640625, 'epoch': 0.09}
+Invalidate trace cache @ step 0 and module 429332: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 430518: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0037, 'grad_norm': 59.787410736083984, 'learning_rate': 6.4e-07, 'completion_length': 26.9375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.09259033203125, 'epoch': 0.09}
+Invalidate trace cache @ step 0 and module 431704: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 432890: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0012, 'grad_norm': 1.912974238395691, 'learning_rate': 6.38e-07, 'completion_length': 24.65625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2812500149011612, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.03033447265625, 'epoch': 0.09}
+Invalidate trace cache @ step 0 and module 434076: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 435262: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0015, 'grad_norm': 2.8663880825042725, 'learning_rate': 6.36e-07, 'completion_length': 28.6875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.037109375, 'epoch': 0.09}
+Invalidate trace cache @ step 0 and module 436448: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 437634: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0022, 'grad_norm': 3.2645280361175537, 'learning_rate': 6.34e-07, 'completion_length': 25.53125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.0540771484375, 'epoch': 0.09}
+Invalidate trace cache @ step 0 and module 438820: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 440006: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 3.1855249404907227, 'learning_rate': 6.319999999999999e-07, 'completion_length': 20.8125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.0386962890625, 'epoch': 0.09}
+Invalidate trace cache @ step 0 and module 441192: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 442378: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.002, 'grad_norm': 1.536341667175293, 'learning_rate': 6.3e-07, 'completion_length': 21.46875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0487060546875, 'epoch': 0.09}
+Invalidate trace cache @ step 0 and module 443564: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 444750: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0028, 'grad_norm': 1.339495301246643, 'learning_rate': 6.28e-07, 'completion_length': 25.5625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.071044921875, 'epoch': 0.09}
+Invalidate trace cache @ step 0 and module 445936: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 447122: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0018, 'grad_norm': 0.27862483263015747, 'learning_rate': 6.26e-07, 'completion_length': 24.5625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2812500149011612, 'reward': 0.2812500149011612, 'reward_std': 0.0, 'kl': 0.044677734375, 'epoch': 0.09}
+Invalidate trace cache @ step 0 and module 448308: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 449494: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0021, 'grad_norm': 4.148410320281982, 'learning_rate': 6.24e-07, 'completion_length': 26.6875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.0533447265625, 'epoch': 0.09}
+Invalidate trace cache @ step 0 and module 450680: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 451866: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0023, 'grad_norm': 2.310631275177002, 'learning_rate': 6.219999999999999e-07, 'completion_length': 31.1875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.0572509765625, 'epoch': 0.1}
+Invalidate trace cache @ step 0 and module 453052: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 454238: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0025, 'grad_norm': 2.183657169342041, 'learning_rate': 6.2e-07, 'completion_length': 23.53125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.06298828125, 'epoch': 0.1}
+Invalidate trace cache @ step 0 and module 455424: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 456610: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0015, 'grad_norm': 2.1859638690948486, 'learning_rate': 6.18e-07, 'completion_length': 21.125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.0377197265625, 'epoch': 0.1}
+Invalidate trace cache @ step 0 and module 457796: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 458982: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0018, 'grad_norm': 1.6576958894729614, 'learning_rate': 6.16e-07, 'completion_length': 34.59375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0439453125, 'epoch': 0.1}
+Invalidate trace cache @ step 0 and module 460168: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 461354: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0013, 'grad_norm': 1.2109490633010864, 'learning_rate': 6.14e-07, 'completion_length': 28.6875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.03302001953125, 'epoch': 0.1}
+Invalidate trace cache @ step 0 and module 462540: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 463726: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0033, 'grad_norm': 0.8703478574752808, 'learning_rate': 6.119999999999999e-07, 'completion_length': 21.9375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0819091796875, 'epoch': 0.1}
+Invalidate trace cache @ step 0 and module 464912: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 466098: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0022, 'grad_norm': 0.9636996388435364, 'learning_rate': 6.1e-07, 'completion_length': 41.65625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2812500149011612, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.05517578125, 'epoch': 0.1}
+Invalidate trace cache @ step 0 and module 467284: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 468470: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0015, 'grad_norm': 0.20150890946388245, 'learning_rate': 6.079999999999999e-07, 'completion_length': 34.84375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.037109375, 'epoch': 0.1}
+Invalidate trace cache @ step 0 and module 469656: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 470842: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0029, 'grad_norm': 2.669025182723999, 'learning_rate': 6.06e-07, 'completion_length': 29.28125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0711669921875, 'epoch': 0.1}
+Invalidate trace cache @ step 0 and module 472028: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 473214: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0012, 'grad_norm': 0.17243774235248566, 'learning_rate': 6.04e-07, 'completion_length': 26.15625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.029296875, 'epoch': 0.1}
+Invalidate trace cache @ step 0 and module 474400: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 475586: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0012, 'grad_norm': 0.4797621965408325, 'learning_rate': 6.019999999999999e-07, 'completion_length': 31.90625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.030029296875, 'epoch': 0.1}
+Configuration saved in exp/model/checkpoint-200/config.json
+Configuration saved in exp/model/checkpoint-200/generation_config.json
+The model is bigger than the maximum size per checkpoint (5GB) and is going to be split in 4 checkpoint shards. You can find where each parameters has been saved in the index located at exp/model/checkpoint-200/model.safetensors.index.json.
+Image processor saved in exp/model/checkpoint-200/preprocessor_config.json
+Video processor saved in exp/model/checkpoint-200/video_preprocessor_config.json
+Feature extractor saved in exp/model/checkpoint-200/preprocessor_config.json
+chat template saved in exp/model/checkpoint-200/chat_template.jinja
+tokenizer config file saved in exp/model/checkpoint-200/tokenizer_config.json
+Special tokens file saved in exp/model/checkpoint-200/special_tokens_map.json
+chat template saved in exp/model/checkpoint-200/chat_template.jinja
+Invalidate trace cache @ step 0 and module 476772: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 477958: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+ 41%|████      | 204/500 [2:52:00<4:28:21, 54.40s/it]
+{'loss': 0.0018, 'grad_norm': 1.475533366203308, 'learning_rate': 6e-07, 'completion_length': 24.6875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0455322265625, 'epoch': 0.1}
+Invalidate trace cache @ step 0 and module 479144: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 480330: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0026, 'grad_norm': 5.857386112213135, 'learning_rate': 5.979999999999999e-07, 'completion_length': 35.5625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250000298023224, 'reward': 0.26250000298023224, 'reward_std': 0.0530330091714859, 'kl': 0.0643310546875, 'epoch': 0.1}
+Invalidate trace cache @ step 0 and module 481516: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 482702: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0013, 'grad_norm': 0.21276812255382538, 'learning_rate': 5.96e-07, 'completion_length': 26.84375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.03204345703125, 'epoch': 0.1}
+Invalidate trace cache @ step 0 and module 483888: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 485074: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 1.3273764848709106, 'learning_rate': 5.939999999999999e-07, 'completion_length': 23.59375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.03936767578125, 'epoch': 0.1}
+Invalidate trace cache @ step 0 and module 486260: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 487446: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0018, 'grad_norm': 2.0599331855773926, 'learning_rate': 5.919999999999999e-07, 'completion_length': 27.28125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.044189453125, 'epoch': 0.1}
+Invalidate trace cache @ step 0 and module 488632: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 489818: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0019, 'grad_norm': 2.1986541748046875, 'learning_rate': 5.9e-07, 'completion_length': 39.6875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.0467529296875, 'epoch': 0.1}
+Invalidate trace cache @ step 0 and module 491004: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 492190: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.001, 'grad_norm': 1.5891519784927368, 'learning_rate': 5.879999999999999e-07, 'completion_length': 32.90625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.025390625, 'epoch': 0.1}
+Invalidate trace cache @ step 0 and module 493376: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 494562: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0024, 'grad_norm': 0.28507840633392334, 'learning_rate': 5.86e-07, 'completion_length': 36.25, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.0599365234375, 'epoch': 0.1}
+Invalidate trace cache @ step 0 and module 495748: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 496934: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0035, 'grad_norm': 0.21913929283618927, 'learning_rate': 5.839999999999999e-07, 'completion_length': 31.40625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.08642578125, 'epoch': 0.1}
+Invalidate trace cache @ step 0 and module 498120: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 499306: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0015, 'grad_norm': 1.0926934480667114, 'learning_rate': 5.819999999999999e-07, 'completion_length': 29.53125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.03643798828125, 'epoch': 0.11}
+Invalidate trace cache @ step 0 and module 500492: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 501678: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+{'loss': 0.0018, 'grad_norm': 2.6493706703186035, 'learning_rate': 5.8e-07, 'completion_length': 33.6875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250000298023224, 'reward': 0.26250000298023224, 'reward_std': 0.0530330091714859, 'kl': 0.0438232421875, 'epoch': 0.11}
+Invalidate trace cache @ step 0 and module 502864: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 504050: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.002, 'grad_norm': 0.18474707007408142, 'learning_rate': 5.779999999999999e-07, 'completion_length': 35.21875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.0499267578125, 'epoch': 0.11}
+Invalidate trace cache @ step 0 and module 505236: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 506422: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0021, 'grad_norm': 2.0772576332092285, 'learning_rate': 5.76e-07, 'completion_length': 28.5625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718749940395355, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.051513671875, 'epoch': 0.11}
+Invalidate trace cache @ step 0 and module 507608: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 508794: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0024, 'grad_norm': 1.391564965248108, 'learning_rate': 5.739999999999999e-07, 'completion_length': 30.5, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.06103515625, 'epoch': 0.11}
+Invalidate trace cache @ step 0 and module 509980: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 511166: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0021, 'grad_norm': 2.0325303077697754, 'learning_rate': 5.719999999999999e-07, 'completion_length': 39.5625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.0523681640625, 'epoch': 0.11}
+Invalidate trace cache @ step 0 and module 512352: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 513538: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0018, 'grad_norm': 0.18513557314872742, 'learning_rate': 5.699999999999999e-07, 'completion_length': 29.53125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.0450439453125, 'epoch': 0.11}
+Invalidate trace cache @ step 0 and module 514724: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 515910: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0014, 'grad_norm': 0.24463355541229248, 'learning_rate': 5.679999999999999e-07, 'completion_length': 29.875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.0347900390625, 'epoch': 0.11}
+Invalidate trace cache @ step 0 and module 517096: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 518282: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0028, 'grad_norm': 1.3466471433639526, 'learning_rate': 5.66e-07, 'completion_length': 29.65625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0706787109375, 'epoch': 0.11}
+Invalidate trace cache @ step 0 and module 519468: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 520654: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0026, 'grad_norm': 0.2797709107398987, 'learning_rate': 5.639999999999999e-07, 'completion_length': 32.90625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.0662841796875, 'epoch': 0.11}
+Invalidate trace cache @ step 0 and module 521840: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 523026: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.009, 'grad_norm': 4.29633903503418, 'learning_rate': 5.620000000000001e-07, 'completion_length': 27.875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.22509765625, 'epoch': 0.11}
+Invalidate trace cache @ step 0 and module 524212: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 525398: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 1.8551651239395142, 'learning_rate': 5.6e-07, 'completion_length': 30.25, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0391845703125, 'epoch': 0.11}
+Invalidate trace cache @ step 0 and module 526584: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 527770: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 1.614251971244812, 'learning_rate': 5.58e-07, 'completion_length': 30.78125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.039794921875, 'epoch': 0.11}
+Invalidate trace cache @ step 0 and module 528956: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 530142: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 1.6963714361190796, 'learning_rate': 5.560000000000001e-07, 'completion_length': 29.25, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.040283203125, 'epoch': 0.11}
+Invalidate trace cache @ step 0 and module 531328: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 532514: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0018, 'grad_norm': 2.524900197982788, 'learning_rate': 5.54e-07, 'completion_length': 29.90625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.04541015625, 'epoch': 0.11}
+Invalidate trace cache @ step 0 and module 533700: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 534886: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0018, 'grad_norm': 3.0825135707855225, 'learning_rate': 5.520000000000001e-07, 'completion_length': 27.90625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.044189453125, 'epoch': 0.11}
+Invalidate trace cache @ step 0 and module 536072: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 537258: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0019, 'grad_norm': 2.4290971755981445, 'learning_rate': 5.5e-07, 'completion_length': 33.78125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.048095703125, 'epoch': 0.11}
+Invalidate trace cache @ step 0 and module 538444: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 539630: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0043, 'grad_norm': 2.6585135459899902, 'learning_rate': 5.48e-07, 'completion_length': 27.1875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2812500149011612, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.1072998046875, 'epoch': 0.11}
+Invalidate trace cache @ step 0 and module 540816: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 542002: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0011, 'grad_norm': 0.173116073012352, 'learning_rate': 5.46e-07, 'completion_length': 32.03125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.02630615234375, 'epoch': 0.11}
+Invalidate trace cache @ step 0 and module 543188: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 544374: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0017, 'grad_norm': 0.3296690881252289, 'learning_rate': 5.44e-07, 'completion_length': 37.59375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.0428466796875, 'epoch': 0.11}
+Invalidate trace cache @ step 0 and module 545560: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 546746: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+{'loss': 0.0024, 'grad_norm': 4.333847999572754, 'learning_rate': 5.420000000000001e-07, 'completion_length': 35.1875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2343750074505806, 'reward': 0.2343750074505806, 'reward_std': 0.09280776605010033, 'kl': 0.06103515625, 'epoch': 0.12}
+Invalidate trace cache @ step 0 and module 547932: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 549118: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0011, 'grad_norm': 1.3776220083236694, 'learning_rate': 5.4e-07, 'completion_length': 29.25, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.027587890625, 'epoch': 0.12}
+Invalidate trace cache @ step 0 and module 550304: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 551490: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0009, 'grad_norm': 0.1527193933725357, 'learning_rate': 5.38e-07, 'completion_length': 24.75, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.02197265625, 'epoch': 0.12}
+Invalidate trace cache @ step 0 and module 552676: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 553862: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0015, 'grad_norm': 1.5478566884994507, 'learning_rate': 5.36e-07, 'completion_length': 30.6875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.03857421875, 'epoch': 0.12}
+Invalidate trace cache @ step 0 and module 555048: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 556234: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0015, 'grad_norm': 2.5624163150787354, 'learning_rate': 5.34e-07, 'completion_length': 28.78125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250001043081284, 'reward': 0.26250001043081284, 'reward_std': 0.0530330091714859, 'kl': 0.0364990234375, 'epoch': 0.12}
+Invalidate trace cache @ step 0 and module 557420: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 558606: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0022, 'grad_norm': 2.4297215938568115, 'learning_rate': 5.32e-07, 'completion_length': 29.28125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.25312501192092896, 'reward': 0.25312501192092896, 'reward_std': 0.039774756878614426, 'kl': 0.0540771484375, 'epoch': 0.12}
+Invalidate trace cache @ step 0 and module 559792: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 560978: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0015, 'grad_norm': 1.9068620204925537, 'learning_rate': 5.3e-07, 'completion_length': 30.71875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.03741455078125, 'epoch': 0.12}
+Invalidate trace cache @ step 0 and module 562164: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 563350: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.003, 'grad_norm': 2.280116319656372, 'learning_rate': 5.28e-07, 'completion_length': 31.5625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250000298023224, 'reward': 0.26250000298023224, 'reward_std': 0.0530330091714859, 'kl': 0.07470703125, 'epoch': 0.12}
+Invalidate trace cache @ step 0 and module 564536: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 565722: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 0.3360311985015869, 'learning_rate': 5.26e-07, 'completion_length': 24.0625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.0401611328125, 'epoch': 0.12}
+Invalidate trace cache @ step 0 and module 566908: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 568094: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0014, 'grad_norm': 2.485391855239868, 'learning_rate': 5.24e-07, 'completion_length': 33.125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.03607177734375, 'epoch': 0.12}
+Invalidate trace cache @ step 0 and module 569280: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 570466: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 1.4660800695419312, 'learning_rate': 5.22e-07, 'completion_length': 33.3125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250000298023224, 'reward': 0.26250000298023224, 'reward_std': 0.02651650458574295, 'kl': 0.03875732421875, 'epoch': 0.12}
+Invalidate trace cache @ step 0 and module 571652: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 572838: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+{'loss': 0.001, 'grad_norm': 0.48777246475219727, 'learning_rate': 5.2e-07, 'completion_length': 21.03125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.013258252292871475, 'kl': 0.0255126953125, 'epoch': 0.12}
+Invalidate trace cache @ step 0 and module 574024: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 575210: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 3.7405104637145996, 'learning_rate': 5.18e-07, 'completion_length': 30.09375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750163912773, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.0411376953125, 'epoch': 0.12}
+Invalidate trace cache @ step 0 and module 576396: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 577582: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0023, 'grad_norm': 3.8779056072235107, 'learning_rate': 5.16e-07, 'completion_length': 32.4375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250000298023224, 'reward': 0.26250000298023224, 'reward_std': 0.0530330091714859, 'kl': 0.0579833984375, 'epoch': 0.12}
+Invalidate trace cache @ step 0 and module 578768: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 579954: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0014, 'grad_norm': 1.5733497142791748, 'learning_rate': 5.14e-07, 'completion_length': 28.125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0350341796875, 'epoch': 0.12}
+Invalidate trace cache @ step 0 and module 581140: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 582326: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0017, 'grad_norm': 2.916719913482666, 'learning_rate': 5.12e-07, 'completion_length': 30.53125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.25312501192092896, 'reward': 0.25312501192092896, 'reward_std': 0.06629126146435738, 'kl': 0.0430908203125, 'epoch': 0.12}
+Invalidate trace cache @ step 0 and module 583512: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 584698: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0015, 'grad_norm': 2.234287977218628, 'learning_rate': 5.1e-07, 'completion_length': 32.5625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.24375000596046448, 'reward': 0.24375000596046448, 'reward_std': 0.0530330091714859, 'kl': 0.03759765625, 'epoch': 0.12}
+Invalidate trace cache @ step 0 and module 585884: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 587070: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+{'loss': 0.0021, 'grad_norm': 2.2338898181915283, 'learning_rate': 5.079999999999999e-07, 'completion_length': 47.09375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.0516357421875, 'epoch': 0.12}
+Invalidate trace cache @ step 0 and module 588256: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 589442: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0021, 'grad_norm': 3.6123998165130615, 'learning_rate': 5.06e-07, 'completion_length': 36.09375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250000298023224, 'reward': 0.26250001788139343, 'reward_std': 0.0530330091714859, 'kl': 0.0528564453125, 'epoch': 0.12}
+Invalidate trace cache @ step 0 and module 590628: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 591814: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0019, 'grad_norm': 2.2186741828918457, 'learning_rate': 5.04e-07, 'completion_length': 33.5625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2812500149011612, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.0465087890625, 'epoch': 0.12}
+Invalidate trace cache @ step 0 and module 593000: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 594186: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 1.4012333154678345, 'learning_rate': 5.02e-07, 'completion_length': 37.375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.040771484375, 'epoch': 0.13}
+Invalidate trace cache @ step 0 and module 595372: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 596558: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0017, 'grad_norm': 2.028228998184204, 'learning_rate': 5e-07, 'completion_length': 33.625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.0416259765625, 'epoch': 0.13}
+Invalidate trace cache @ step 0 and module 597744: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 598930: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+{'loss': 0.0014, 'grad_norm': 1.9852441549301147, 'learning_rate': 4.979999999999999e-07, 'completion_length': 36.125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.0361328125, 'epoch': 0.13}
+Invalidate trace cache @ step 0 and module 600116: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 601302: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0031, 'grad_norm': 2.27622389793396, 'learning_rate': 4.96e-07, 'completion_length': 43.5625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.07861328125, 'epoch': 0.13}
+Invalidate trace cache @ step 0 and module 602488: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 603674: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0013, 'grad_norm': 1.8254941701889038, 'learning_rate': 4.94e-07, 'completion_length': 37.25, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0325927734375, 'epoch': 0.13}
+Invalidate trace cache @ step 0 and module 604860: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 606046: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.003, 'grad_norm': 3.022683620452881, 'learning_rate': 4.92e-07, 'completion_length': 37.75, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250001788139343, 'reward': 0.26250001788139343, 'reward_std': 0.0530330091714859, 'kl': 0.07470703125, 'epoch': 0.13}
+Invalidate trace cache @ step 0 and module 607232: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 608418: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.002, 'grad_norm': 10.000192642211914, 'learning_rate': 4.9e-07, 'completion_length': 33.5625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250001043081284, 'reward': 0.26250001043081284, 'reward_std': 0.0530330091714859, 'kl': 0.049560546875, 'epoch': 0.13}
+Invalidate trace cache @ step 0 and module 609604: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 610790: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0023, 'grad_norm': 1.8275032043457031, 'learning_rate': 4.879999999999999e-07, 'completion_length': 37.03125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.0584716796875, 'epoch': 0.13}
+Invalidate trace cache @ step 0 and module 611976: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 613162: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0013, 'grad_norm': 1.1021277904510498, 'learning_rate': 4.86e-07, 'completion_length': 37.5625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.03179931640625, 'epoch': 0.13}
+Invalidate trace cache @ step 0 and module 614348: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 615534: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0026, 'grad_norm': 0.5327964425086975, 'learning_rate': 4.839999999999999e-07, 'completion_length': 30.84375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.30000001192092896, 'reward': 0.30000001192092896, 'reward_std': 0.0, 'kl': 0.064453125, 'epoch': 0.13}
+Invalidate trace cache @ step 0 and module 616720: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 617906: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0018, 'grad_norm': 1.520430564880371, 'learning_rate': 4.82e-07, 'completion_length': 29.21875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0440673828125, 'epoch': 0.13}
+Invalidate trace cache @ step 0 and module 619092: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 620278: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.002, 'grad_norm': 3.6339564323425293, 'learning_rate': 4.8e-07, 'completion_length': 32.0625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250000298023224, 'reward': 0.26250000298023224, 'reward_std': 0.0530330091714859, 'kl': 0.0489501953125, 'epoch': 0.13}
+Invalidate trace cache @ step 0 and module 621464: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 622650: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0027, 'grad_norm': 2.482879161834717, 'learning_rate': 4.779999999999999e-07, 'completion_length': 36.59375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.24375001341104507, 'reward': 0.24375000596046448, 'reward_std': 0.0530330091714859, 'kl': 0.067138671875, 'epoch': 0.13}
+Invalidate trace cache @ step 0 and module 623836: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 625022: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0019, 'grad_norm': 0.6734079718589783, 'learning_rate': 4.76e-07, 'completion_length': 29.78125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.046875, 'epoch': 0.13}
+Invalidate trace cache @ step 0 and module 626208: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 627394: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+{'loss': 0.002, 'grad_norm': 2.413006067276001, 'learning_rate': 4.7399999999999993e-07, 'completion_length': 31.1875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.0506591796875, 'epoch': 0.13}
+Invalidate trace cache @ step 0 and module 628580: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.0000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 629766: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0016, 'grad_norm': 2.729252576828003, 'learning_rate': 4.7199999999999994e-07, 'completion_length': 35.375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.25312499701976776, 'reward': 0.25312501192092896, 'reward_std': 0.06629126146435738, 'kl': 0.04052734375, 'epoch': 0.13}
+Invalidate trace cache @ step 0 and module 630952: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 632138: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.0000]], device='cuda:0')
+{'loss': 0.0019, 'grad_norm': 2.544215679168701, 'learning_rate': 4.6999999999999995e-07, 'completion_length': 27.40625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250000298023224, 'reward': 0.26250001788139343, 'reward_std': 0.0530330091714859, 'kl': 0.0472412109375, 'epoch': 0.13}
+Invalidate trace cache @ step 0 and module 633324: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 634510: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0037, 'grad_norm': 3.8304858207702637, 'learning_rate': 4.68e-07, 'completion_length': 32.71875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.28125, 'reward': 0.28125, 'reward_std': 0.02651650458574295, 'kl': 0.0928955078125, 'epoch': 0.13}
+Invalidate trace cache @ step 0 and module 635696: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 636882: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0018, 'grad_norm': 2.356187582015991, 'learning_rate': 4.66e-07, 'completion_length': 34.875, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718750089406967, 'reward': 0.2718750089406967, 'reward_std': 0.039774756878614426, 'kl': 0.04583740234375, 'epoch': 0.13}
+Invalidate trace cache @ step 0 and module 638068: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 639254: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0017, 'grad_norm': 1.6702440977096558, 'learning_rate': 4.64e-07, 'completion_length': 28.8125, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2812500149011612, 'reward': 0.2812500149011612, 'reward_std': 0.02651650458574295, 'kl': 0.0416259765625, 'epoch': 0.13}
+Invalidate trace cache @ step 0 and module 640440: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 641626: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0012, 'grad_norm': 1.5103093385696411, 'learning_rate': 4.62e-07, 'completion_length': 28.5625, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.0303955078125, 'epoch': 0.14}
+Invalidate trace cache @ step 0 and module 642812: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 643998: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0014, 'grad_norm': 2.7713401317596436, 'learning_rate': 4.6e-07, 'completion_length': 24.4375, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.26250001788139343, 'reward': 0.26250001788139343, 'reward_std': 0.0530330091714859, 'kl': 0.0343017578125, 'epoch': 0.14}
+Invalidate trace cache @ step 0 and module 645184: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 646370: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0017, 'grad_norm': 1.9762686491012573, 'learning_rate': 4.58e-07, 'completion_length': 24.75, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2906250059604645, 'reward': 0.2906250059604645, 'reward_std': 0.013258252292871475, 'kl': 0.04119873046875, 'epoch': 0.14}
+Invalidate trace cache @ step 0 and module 647556: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1., 0.],
+        [1., 0.]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 648742: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')
+{'loss': 0.0023, 'grad_norm': 1.2335896492004395, 'learning_rate': 4.56e-07, 'completion_length': 27.75, 'rewards/accuracy_reward': 0.0, 'rewards/format_reward': 0.2718749940395355, 'reward': 0.2718750089406967, 'reward_std': 0.013258252292871475, 'kl': 0.0582275390625, 'epoch': 0.14}

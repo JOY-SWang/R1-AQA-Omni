@@ -1,0 +1,14 @@
+{"time":"2025-09-29T11:18:19.373881885+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/shared-storage-user/wangjieyi/huoshan/wangjieyi/codes/r1-aqa-main-v1/wandb/offline-run-20250929_111818-umeyl1aw/logs/debug-core.log"}
+{"time":"2025-09-29T11:18:19.601041743+08:00","level":"INFO","msg":"created new stream","id":"umeyl1aw"}
+{"time":"2025-09-29T11:18:19.601333121+08:00","level":"INFO","msg":"stream: started","id":"umeyl1aw"}
+{"time":"2025-09-29T11:18:19.601497624+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"umeyl1aw"}
+{"time":"2025-09-29T11:18:19.601522203+08:00","level":"INFO","msg":"handler: started","stream_id":"umeyl1aw"}
+{"time":"2025-09-29T11:18:19.601536926+08:00","level":"INFO","msg":"sender: started","stream_id":"umeyl1aw"}
+{"time":"2025-09-29T11:18:19.683279321+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-29T11:19:26.689094366+08:00","level":"INFO","msg":"stream: closing","id":"umeyl1aw"}
+{"time":"2025-09-29T11:19:26.689358644+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-29T11:19:26.690591076+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-29T11:19:26.690780832+08:00","level":"INFO","msg":"handler: closed","stream_id":"umeyl1aw"}
+{"time":"2025-09-29T11:19:26.690819107+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"umeyl1aw"}
+{"time":"2025-09-29T11:19:26.690889798+08:00","level":"INFO","msg":"sender: closed","stream_id":"umeyl1aw"}
+{"time":"2025-09-29T11:19:26.708529361+08:00","level":"INFO","msg":"stream: closed","id":"umeyl1aw"}

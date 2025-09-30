@@ -1,0 +1,15 @@
+{"time":"2025-06-12T03:54:22.107387845Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/wandb/run-20250612_035421-a00c5y31/logs/debug-core.log"}
+{"time":"2025-06-12T03:54:22.218632234Z","level":"INFO","msg":"created new stream","id":"a00c5y31"}
+{"time":"2025-06-12T03:54:22.21869594Z","level":"INFO","msg":"stream: started","id":"a00c5y31"}
+{"time":"2025-06-12T03:54:22.218715057Z","level":"INFO","msg":"writer: Do: started","stream_id":"a00c5y31"}
+{"time":"2025-06-12T03:54:22.218724691Z","level":"INFO","msg":"handler: started","stream_id":"a00c5y31"}
+{"time":"2025-06-12T03:54:22.218723642Z","level":"INFO","msg":"sender: started","stream_id":"a00c5y31"}
+{"time":"2025-06-12T03:54:22.761765792Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-12T03:54:40.280081463Z","level":"INFO","msg":"stream: closing","id":"a00c5y31"}
+{"time":"2025-06-12T03:54:40.280115938Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-12T03:54:40.280562998Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-12T03:54:42.255416276Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-12T03:54:42.974853932Z","level":"INFO","msg":"handler: closed","stream_id":"a00c5y31"}
+{"time":"2025-06-12T03:54:42.974901082Z","level":"INFO","msg":"writer: Close: closed","stream_id":"a00c5y31"}
+{"time":"2025-06-12T03:54:42.974908377Z","level":"INFO","msg":"sender: closed","stream_id":"a00c5y31"}
+{"time":"2025-06-12T03:54:42.975199487Z","level":"INFO","msg":"stream: closed","id":"a00c5y31"}

@@ -1,0 +1,11 @@
+  0%|          | 0/500 [00:00<?, ?it/s]/root/miniconda3/lib/python3.10/site-packages/torch/utils/checkpoint.py:87: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+Invalidate trace cache @ step 0 and module 2372: cache has only 0 modules
+rewards_per_func===============**
+tensor([[1.0000, 0.3000],
+        [0.0000, 0.3000]], device='cuda:0')
+Invalidate trace cache @ step 0 and module 3558: cache has only 0 modules
+rewards_per_func===============**
+tensor([[0.0000, 0.3000],
+        [1.0000, 0.3000]], device='cuda:0')

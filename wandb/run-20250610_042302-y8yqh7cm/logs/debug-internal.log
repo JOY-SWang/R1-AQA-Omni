@@ -1,0 +1,14 @@
+{"time":"2025-06-10T04:23:04.72291052Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/wandb/run-20250610_042302-y8yqh7cm/logs/debug-core.log"}
+{"time":"2025-06-10T04:23:05.031825115Z","level":"INFO","msg":"created new stream","id":"y8yqh7cm"}
+{"time":"2025-06-10T04:23:05.031873694Z","level":"INFO","msg":"stream: started","id":"y8yqh7cm"}
+{"time":"2025-06-10T04:23:05.031889155Z","level":"INFO","msg":"writer: Do: started","stream_id":"y8yqh7cm"}
+{"time":"2025-06-10T04:23:05.031896876Z","level":"INFO","msg":"sender: started","stream_id":"y8yqh7cm"}
+{"time":"2025-06-10T04:23:05.03190923Z","level":"INFO","msg":"handler: started","stream_id":"y8yqh7cm"}
+{"time":"2025-06-10T04:23:06.272205088Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-10T04:46:17.730473462Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/joywang909/huggingface/y8yqh7cm/file_stream\": unexpected EOF"}
+{"time":"2025-06-10T04:58:17.521680952Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/joywang909/huggingface/y8yqh7cm/file_stream\": unexpected EOF"}
+{"time":"2025-06-10T05:52:25.737438878Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/joywang909/huggingface/y8yqh7cm/file_stream\": unexpected EOF"}
+{"time":"2025-06-10T06:05:25.101855106Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/joywang909/huggingface/y8yqh7cm/file_stream\": unexpected EOF"}
+{"time":"2025-06-10T06:08:55.117369633Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/joywang909/huggingface/y8yqh7cm/file_stream\": unexpected EOF"}
+{"time":"2025-06-10T06:45:10.610691221Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/joywang909/huggingface/y8yqh7cm/file_stream\": unexpected EOF"}
+{"time":"2025-06-10T07:28:25.125622863Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/joywang909/huggingface/y8yqh7cm/file_stream\": unexpected EOF"}

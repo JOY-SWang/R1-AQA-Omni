@@ -1,0 +1,10 @@
+{"time":"2025-06-12T08:11:49.23874173Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/wandb/run-20250612_081149-e845csgm/logs/debug-core.log"}
+{"time":"2025-06-12T08:11:49.449967087Z","level":"INFO","msg":"created new stream","id":"e845csgm"}
+{"time":"2025-06-12T08:11:49.450027605Z","level":"INFO","msg":"stream: started","id":"e845csgm"}
+{"time":"2025-06-12T08:11:49.450042524Z","level":"INFO","msg":"writer: Do: started","stream_id":"e845csgm"}
+{"time":"2025-06-12T08:11:49.450065428Z","level":"INFO","msg":"sender: started","stream_id":"e845csgm"}
+{"time":"2025-06-12T08:11:49.450050996Z","level":"INFO","msg":"handler: started","stream_id":"e845csgm"}
+{"time":"2025-06-12T08:11:49.990086528Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-12T08:27:26.376634158Z","level":"INFO","msg":"stream: closing","id":"e845csgm"}
+{"time":"2025-06-12T08:27:26.37671045Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-12T08:27:26.377351908Z","level":"INFO","msg":"Stopped system monitor"}

@@ -1,0 +1,10 @@
+{"time":"2025-06-12T06:05:59.483629611Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/wandb/run-20250612_060559-mrovv5xt/logs/debug-core.log"}
+{"time":"2025-06-12T06:05:59.59488015Z","level":"INFO","msg":"created new stream","id":"mrovv5xt"}
+{"time":"2025-06-12T06:05:59.594946267Z","level":"INFO","msg":"stream: started","id":"mrovv5xt"}
+{"time":"2025-06-12T06:05:59.594958643Z","level":"INFO","msg":"writer: Do: started","stream_id":"mrovv5xt"}
+{"time":"2025-06-12T06:05:59.594975946Z","level":"INFO","msg":"sender: started","stream_id":"mrovv5xt"}
+{"time":"2025-06-12T06:05:59.594980186Z","level":"INFO","msg":"handler: started","stream_id":"mrovv5xt"}
+{"time":"2025-06-12T06:06:00.118785599Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-12T06:06:01.698948102Z","level":"INFO","msg":"stream: closing","id":"mrovv5xt"}
+{"time":"2025-06-12T06:06:01.698994295Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-12T06:06:01.6994841Z","level":"INFO","msg":"Stopped system monitor"}

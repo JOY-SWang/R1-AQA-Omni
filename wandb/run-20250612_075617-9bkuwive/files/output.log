@@ -1,0 +1,91 @@
+  0%|                                                                                                                                       | 0/1000 [00:00<?, ?it/s]/root/miniconda3/lib/python3.10/site-packages/torch/utils/checkpoint.py:87: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+text===================**
+["<|im_start|>system\nYou are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.<|im_end|>\n<|im_start|>user\n<|audio_bos|><|AUDIO|><|audio_eos|>What's moving in the audio? Please choose the answer from the following options: ['lathe rotation sound', 'motorcycle', 'metro', 'train']. Output the final answer in <answer> </answer>.<|im_end|>\n<|im_start|>assistant\n"]
+  warnings.warn(
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+prompt_completion_ids===================**
+GenerateDecoderOnlyOutput(sequences=tensor([[151644,   8948,    198,  ..., 151643, 151643, 151643],
+        [151644,   8948,    198,  ..., 151643, 151643, 151643],
+        [151644,   8948,    198,  ..., 151643, 151643, 151643],
+        ...,
+        [151644,   8948,    198,  ..., 151643, 151643, 151643],
+        [151644,   8948,    198,  ...,    432,     30, 151645],
+        [151644,   8948,    198,  ..., 151643, 151643, 151643]],
+       device='cuda:0'), scores=None, logits=None, attentions=None, hidden_states=None, past_key_values=<transformers.cache_utils.DynamicCache object at 0x7fa4495904f0>)
+completion_ids===================**
+tensor([[    27,   9217,     29,   5524,    383,  12695,   5112,    522,   9217,
+             29,   8325,     11,    421,    498,   1184,    894,    803,   1492,
+            389,    419,    476,    614,   1008,   4755,     11,   1101,   1077,
+            752,   1414,      0, 151645, 151643, 151643, 151643, 151643, 151643,
+         151643, 151643, 151643, 151643, 151643, 151643, 151643, 151643, 151643,
+         151643, 151643],
+        [    27,   9217,     29,   5524,    383,  12695,   5112,    522,   9217,
+          14276,   1084,  10362,   1075,    264,   6844,    383,  12695,   5112,
+            311,    752,     13,   3555,    653,    498,   1744,     30, 151645,
+         151643, 151643, 151643, 151643, 151643, 151643, 151643, 151643, 151643,
+         151643, 151643, 151643, 151643, 151643, 151643, 151643, 151643, 151643,
+         151643, 151643],
+        [    27,   9217,     29,   5524,    383,  12695,   5112,    522,   9217,
+          14276,   1084,  10362,   1075,   4325,    374,   1667,    264,   6844,
+            383,   5662,     13,   1416,    498,    614,    894,   1008,   4755,
+            911,    432,     11,   2666,   1910,    311,   2548,     13, 151645,
+         151643, 151643, 151643, 151643, 151643, 151643, 151643, 151643, 151643,
+         151643, 151643],
+        [    27,   9217,     29,   5524,    383,  12695,   5112,    522,   9217,
+          14276,   1416,    498,    614,    894,   1008,   7699,   6358,   4755,
+            476,   1101,   1366,    311,   6236,    911,   2494,   2155,     11,
+           2666,   1910,    311,   1077,    752,   1414,      0, 151645, 151643,
+         151643, 151643, 151643, 151643, 151643, 151643, 151643, 151643, 151643,
+         151643, 151643],
+        [    27,   9217,     29,   6844,    383,  12695,   5112,    690,   9217,
+          14276,   1096,    646,    387,  67595,    504,    279,   4008,    315,
+            279,   5112,     13,   1416,    498,    614,    894,   1008,   4755,
+            911,   5112,   6239,    476,   4113,    770,     11,   2666,   1910,
+            311,   1077,    752,   1414,     13, 151645, 151643, 151643, 151643,
+         151643, 151643],
+        [    27,   9217,     29,   5524,    383,  12695,   5112,    522,   9217,
+          14276,   8325,     11,    429,    594,   1128,    358,    646,   3291,
+            504,    279,   7699,     13,   3155,    498,    614,    894,   1008,
+           7040,  10362,    311,   4332,     30, 151645, 151643, 151643, 151643,
+         151643, 151643, 151643, 151643, 151643, 151643, 151643, 151643, 151643,
+         151643, 151643],
+        [    27,   9217,     29,  10397,    522,   9217,  14276,   1084,  10362,
+           1075,    279,  28071,  21220,    323,  28659,   7203,    429,    594,
+          14260,    315,    264,   5426,   4303,    389,   1181,  13918,     13,
+           2055,     11,   1128,    653,    498,   1744,    911,    429,     30,
+           3155,    498,    614,    894,   1008,   4755,   5435,    311,    432,
+             30, 151645],
+        [    27,   9217,     29,   5524,    383,  12695,   5112,    522,   9217,
+             29,   2055,     11,    432,   4977,   1075,   1052,    594,    264,
+           6844,    383,   1660,  23151,     13,   3555,    770,    525,    498,
+          22208,    911,     30, 151645, 151643, 151643, 151643, 151643, 151643,
+         151643, 151643, 151643, 151643, 151643, 151643, 151643, 151643, 151643,
+         151643, 151643]], device='cuda:0')
+Traceback (most recent call last):
+  File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 79, in <module>
+    main()
+  File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 74, in main
+    trainer.train()
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2240, in train
+    return inner_training_loop(
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2555, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 3745, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/trainer/grpo_trainer.py", line 438, in compute_loss
+    output.sequences[:, inputs["input_ids"].shape[1] :], skip_special_tokens=True, clean_up_tokenization_spaces=False)
+NameError: name 'output' is not defined
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 79, in <module>
+[rank0]:     main()
+[rank0]:   File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/train.py", line 74, in main
+[rank0]:     trainer.train()
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2240, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2555, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:   File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 3745, in training_step
+[rank0]:     loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+[rank0]:   File "/fs-computility/niuyazhe/wangjieyi/code/r1-aqa-main-v1/src/trainer/grpo_trainer.py", line 438, in compute_loss
+[rank0]:     output.sequences[:, inputs["input_ids"].shape[1] :], skip_special_tokens=True, clean_up_tokenization_spaces=False)
+[rank0]: NameError: name 'output' is not defined
