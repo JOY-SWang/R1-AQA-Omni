@@ -7,9 +7,9 @@
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
 
-OUT_DIR=exp/model_Omni_ReflectGRPO
-MODEL_NP=/mnt/shared-storage-user/wangjieyi/huoshan/wangjieyi/models/qwen/Qwen/Qwen2___5-Omni-7B # /mnt/shared-storage-user/wangjieyi/huoshan/wangjieyi/ICLR/codes/tryOmni/output/Qwen2___5-Omni-7B-SFT
-DATA_FILE=/mnt/shared-storage-user/wangjieyi/huoshan/wangjieyi/ICLR/datasets/AVQA/AVQA/AVQA_dataset/train_r1aqa_line2.json
+OUT_DIR=exp/model_Omni_GRPO
+MODEL_NP=Qwen/Qwen2___5-Omni-7B # /mnt/shared-storage-user/wangjieyi/huoshan/wangjieyi/ICLR/codes/tryOmni/output/Qwen2___5-Omni-7B-SFT
+DATA_FILE=Joysw909/AVQA/train_r1aqa_line.json
 
 GPU_NUM=$(nvidia-smi -L | wc -l)
 NODE_NUM=1
