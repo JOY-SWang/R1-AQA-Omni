@@ -379,8 +379,8 @@ class GRPOTrainer(Trainer):
         # Prepare prompts and audios for processor
         text = self.processing_class.apply_chat_template(conversations, add_generation_prompt=True, tokenize=False)
        
-        print("audios===================**")
-        print(audios)
+        # print("audios===================**")
+        # print(audios)
         # print("text===================**")
         # print(text)
         # audios = process_mm_info(conversations, use_audio_in_video=True)
