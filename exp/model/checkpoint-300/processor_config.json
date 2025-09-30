@@ -1,6 +1,0 @@
-{
-  "audio_bos_token": "<|audio_bos|>",
-  "audio_eos_token": "<|audio_eos|>",
-  "audio_token": "<|AUDIO|>",
-  "processor_class": "Qwen2AudioProcessor"
-}
